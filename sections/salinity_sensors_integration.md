@@ -81,3 +81,6 @@ The C-T sensors are exposed outside the fairing to sense the ambient seawater.
 This integration design can minimize the impact of the CTD on the streamline of gliders. 
 
 - insert image: "Figure XX: Petrel Glider integrated an RBR legato3 CTD in the front fairing. (Image credit: Joe Wang)"
+
+### Sensor storage
+Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze. 
