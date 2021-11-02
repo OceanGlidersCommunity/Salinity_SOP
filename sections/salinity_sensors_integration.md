@@ -34,3 +34,14 @@ Seabird provided GPCTD accuracy ratings are: Conductivity: +- 0.0003 S/m over a 
 - insert image "Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Isabelle Giddy)" add arrows!
 
 A variation of the GPCTD has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
+
+### RBRlegato3
+The RBRlegato3 is an integrated CTD and logger package designed specifically for gliders with a hydrodynamic profile. 
+It is available in slow (1 s) and fast (0.1 s) response temperature options as well as normal (2 Hz) and fast (16 Hz) sampling speeds. 
+The RBRlegato3, unlike the previously mentioned sensors, has an inductive cell rather than conductive, with significant implications for sensor calibration of salinity. 
+Its advantages are a large unpumped flow cell, reducing occurrence of spikes due to bubbles and fouling. 
+As such, it is very good for near-surface applications and slow glider speeds, as well as for glider missions involving instrumentation sensitive to vibration (e.g., shear probes) or noise (e.g., acoustic packages). 
+The Legato has low power consumption (45 mW) when sampling at 2 Hz. Its profile and low power have many benefits, but the inductive cell and relative youth of the sensor leave some open questions regarding long term accuracy.
+As a logger, the RBRlegato3 can also integrate other RBR sensors (such as the oxygen Coda optode) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider. 
+The RBRlegato3 has a manufacturer-provided accuracy of ± 0.002°C (ITS-90) over a range of -5 to +35°C (https://rbr-global.com/products/oem/rbrlegato). 
+
