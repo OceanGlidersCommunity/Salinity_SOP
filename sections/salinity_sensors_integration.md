@@ -21,5 +21,5 @@ The sampling speed is set by the user, typically to 2 Hz.
 
 Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity: +- 0.0003 S/m over a range of 0 to 7 S/m; Temperature:  +- 0.002oC over a range of -5 - 45oC and Pressure:  +- 2 dbar over a range of 0-2000 m (datasheet_sbe41-1.pdf).
 
-- insert image "Fig x: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)"
+- insert image "Fig x: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)" add arrows!
 
