@@ -38,12 +38,12 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 Edited the whole document and implemented comments and suggestions.
 Wrote the CT sensors, integration with Seaglider and SLOCUM, added comments regarding CT-pump failure, draft of DMQC and thermal lag sections.
 Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
-Moved the SOP to GitHub and will maintain it there at least until the first release and final publication. 
+Moved the SOP to GitHub and will maintain it there until the first release and final publication. 
 
 [Soeren Thomsen](https://github.com/soerenthomsen) Scoped the initial draft together with Donglai Gong.
 Reviewed the overall document and comments. Coordinates the overall SOP production process.
 Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
-Moved the SOP to GitHub and will maintain it there at least first release and until final publication.
+Moved the SOP to GitHub and will maintain it there until the first release and final publication. 
 
 [Evi Bourma](https://github.com/evibourma) wrote the preventative measure for biofouling on GPCTD section.    
 Provided images for the Seabird GPCTD on SeaExplorer integration. 
