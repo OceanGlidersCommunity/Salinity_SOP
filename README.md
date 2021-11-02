@@ -17,7 +17,7 @@ Constructive feedback by anyone is welcome. We encourage both experts and new gl
 See contributer guideline [here](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/CONTRIBUTING.md)
 
 ## Next steps
-1) 4 months community review on GitHub starting in October 2021 until Februart 28 2022
+1) 4 months community review on GitHub starting in November 2021 until Februart 28 2022
 2) Follow the requirements for the [GOOS](https://www.goosocean.org) endorsement process as outline in [Hermes 2020](http://dx.doi.org/10.25607/OBP-926)
 3) Submission to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review March 2022
 4) Depositing of major SOP releases at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org)
