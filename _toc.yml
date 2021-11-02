@@ -4,12 +4,12 @@ options:  # The options key will be applied to all chapters, but not sub-section
   numbered: True
 sections:
 - file: sections/authors_SOP_development_process
-- file: sections/oxygen_introduction
-- file: sections/oxygen_pre_deployment
-- file: sections/oxygen_mission_execution
-- file: sections/oxygen_rtqc
-- file: sections/oxygen_post_recovery
-- file: sections/oxygen_dmqc
+- file: sections/salinity_introduction
+- file: sections/salinity_pre_deployment
+- file: sections/salinity_mission_execution
+- file: sections/salinity_rtqc
+- file: sections/salinity_post_recovery
+- file: sections/salinity_dmqc
 - file: sections/data_sharing
-- file: sections/oxygen_references
+- file: sections/salinity_references
 - file: sections/acknowledgement

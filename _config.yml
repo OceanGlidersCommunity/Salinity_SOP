@@ -1,9 +1,9 @@
-title: "Oxygen SOP"
+title: "Salinity SOP"
 logo: images/logo-ocean-gliders.png
 execute:
   execute_notebooks: "off"
 repository:
-  url: https://github.com/OceanGlidersCommunity/Oxygen_SOP
+  url: https://github.com/OceanGlidersCommunity/Salinity_SOP
   branch: main
 html:
   use_repository_button: true
@@ -11,9 +11,9 @@ html:
   use_edit_page_button: true
   comments:
     utterances:
-      repo: "OceanGlidersCommunity/Oxygen_SOP"
+      repo: "OceanGlidersCommunity/Salinity_SOP"
 bibtex_bibfiles:
-    - oxygen.bib
+    - salinity.bib
 sphinx:
   config:
     bibtex_reference_style: author_year
