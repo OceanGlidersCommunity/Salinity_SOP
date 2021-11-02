@@ -23,3 +23,10 @@ Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity: +- 0.0003 S/m 
 
 - insert image "Fig x: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)" add arrows!
 
+#### Pumped
+The Glider Payload CTD (GPCTD) is a modular, self-contained CTD with memory and an integrated pump. 
+The GPCTD improves on the CT-Sail through simpler installation requirements as well as a pump which allows for constant flow through the conductivity sensor. 
+The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow (Janzen and Creed, 2011). 
+Power consumption is 175 mW when continuously recording at 1 Hz. 
+
+Seabird provided GPCTD accuracy ratings are: Conductivity: +- 0.0003 S/m over a range of 0 to 9 S/m; Temperature:  +- 0.002oC over a range of -5 - 42oC and Pressure:  ± 0.1% of full scale range, up to 2000 m (datasheet-GliderPayloadCTD-Aug15-2.pdf). 
