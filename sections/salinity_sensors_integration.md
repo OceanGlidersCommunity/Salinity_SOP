@@ -19,7 +19,7 @@ The conductivity sensor itself is positioned within a metal housing with hole cu
 Power consumption is 21 mW while profiling. 
 The sampling speed is set by the user, typically to 2 Hz.  
 
-Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity:  ± 0.0003 S/m over a range of 0 to 7 S/m; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: $\pm$ 2 dbar over a range of 0-2000 m (datasheet_sbe41-1.pdf).
+Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity:  ± 0.0003 S/m over a range of 0 to 7 S/m; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m (datasheet_sbe41-1.pdf).
 
 - insert image "Fig x: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)" add arrows!
 
