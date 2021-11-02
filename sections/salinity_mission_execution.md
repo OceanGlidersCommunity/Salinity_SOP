@@ -24,3 +24,8 @@ In this section specific piloting requirements during the mission execution are 
 ### Flight model calibration dives
 Upon deployment it is important to perform a number of calibration dives (follow steps outlined Depth Averaged Currents (DAC) SOP to constrain the flight model).
 
+### Data to correct for sensor drift and offset
+Corresponding with 5.2, the glider should complete a dive at the beginning and end of deployment in parallel with an independent CTD cast).  
+Coordination between the recovery group and the pilots is essential. 
+In the case where this is not possible, the deep water (from 600-1000 m) measurement from the nearest CTD in space (not time) can also be used as deep water masses tend to be relatively invariant at longer timescales (weeks-months). 
+Further comparison can be made in the case of multiple gliders being deployed in parallel, these can be piloted such that they cross paths every intermittently for inter-comparison.
