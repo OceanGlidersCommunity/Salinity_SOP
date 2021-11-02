@@ -7,11 +7,12 @@
   1. [Louis Clement](https://github.com/LouClement), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
   1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*
-  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
   1. [Anthony Bosse](https://github.com/AnthonyBosse), *MIO, Aix-Marseille University, Marseille, France*
   1. Donglai Gong, *Virginia Institute of Marine Science* 
+  3. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
+  4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
+  5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
+
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
@@ -59,6 +60,9 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
 [Anthony Bosse](https://github.com/AnthonyBosse) reviewed the document and added details on the salinity comparison with external CTDs and example of pumped CTD malfunction.
 
+Donglai Gong initiated the development of the SOP during OceanGliders Best Practice Workshop in May 2021.  
+He joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
+
 [Gerd Krahmann](https://github.com/gkrahmann) reviewed biofouling and thermal lag sections. 
 
 [Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. 
@@ -79,6 +83,3 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 Mattieu Dever wrote the RBR Legato section.
 
 Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image.  
-
-Donglai Gong initiated the development of the SOP during OceanGliders Best Practice Workshop in May 2021.  
-He joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
