@@ -31,5 +31,6 @@ Power consumption is 175 mW when continuously recording at 1 Hz.
 
 Seabird provided GPCTD accuracy ratings are: Conductivity: +- 0.0003 S/m over a range of 0 to 9 S/m; Temperature:  +- 0.002oC over a range of -5 - 42oC and Pressure:  ± 0.1% of full scale range, up to 2000 m (datasheet-GliderPayloadCTD-Aug15-2.pdf). 
 
-- insert image "Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Isabelle Giddy)
-"
+- insert image "Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Isabelle Giddy)" add arrows!
+
+A variation of the GPCTD has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
