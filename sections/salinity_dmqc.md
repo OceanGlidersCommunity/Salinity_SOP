@@ -35,4 +35,7 @@ Align temperature, conductivity and pressure sensors in time.
 ### Interpolate to consistent timestamps
 Interpolate to consistent timestamp between sensors.
 
-
+### Apply correction for conductivity cell thermal inertia
+Initially, the effects of thermal inertia can be visualised as a scatter plot of temperature and salinity, colored by dive phase (whether the glider is performing a dive or a climb). 
+The effectiveness of the correction can then be checked similarly. 
+Often, the correction is not perfect: the remaining error can be reported as a RMSE of the difference between dives and climbs, as in Giddy et al., 2021. 
