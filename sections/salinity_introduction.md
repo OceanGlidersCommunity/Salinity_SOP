@@ -11,4 +11,4 @@ The first section describes the available sensors and their integration with gli
 |---|---|---|---|---|---|---|---|---|
 | Seabird - Glider Payload CTD and Slocum Glider CTD (pumped) | X [Slocum specific](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713)|   | X | X | X |   |   | [Link](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712#) |
 | Seabird - CT-Sail  (unpumped) |   |   | X |   | X |   |    | CT-Sail (provided by Sea-Bird on request) |
-| RBRlegato3 (unpumped) | X |   | X |   | X |   | X | [Link](https://rbr-global.com/products/oem/rbrlegato) |
+| RBR*legato*<sup>3</sup> (unpumped) | X |   | X |   | X |   | X | [Link](https://rbr-global.com/products/oem/rbrlegato) |
