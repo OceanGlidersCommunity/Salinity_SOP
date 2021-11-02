@@ -3,8 +3,7 @@
 This chapter has to be co-developed with the datamanagement team, the Data Assembly Centers (DACs) and Gui's RTQC group. 
 
 ## Required Metadata and Real Time Data Processing
-- link to Metadata requirements in the OG Format
-XXX
+- link to Metadata requirements of the OG Format
 
 ## Real Time quality control (RTQC)
 
