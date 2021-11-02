@@ -77,3 +77,15 @@ Note that this work is still on-going, so the procedures are expected to be upda
 
 - insert image: "Figure x: Example thermal lag effect in T/S (Isabelle Giddy)
 note to include examples of thermal lag in different regions (beta vs alpha, highly stratified/double stratified)"
+
+## Sensor offset and drift correction
+The sensor offset and drift are corrected using comparison CTD casts (see sections 5.2; 5.3.2).  Temperature and salinity are regressed with a colocated CTD that has a known accuracy. 
+Typically the salinity and temperature profiles are compared directly or in TS space. 
+The sensor correction should be quoted together with details on the comparison cast.
+If no correction is made, this can also be reported. 
+
+## 2nd quality control, inter-comparsion
+While thermal lag correction improves spikes and the dissymmetry between adjacent profiles, remaining outliers/spikes can be corrected for (depending on the use case) using rolling medians, depth-bins and the removal of outliers (e.g. some methods in GliderTools). The application of a median filter as proposed by Liu et al (2015) can further improve the salinity error correction in regions of strong thermoclines with temperature changes above ~2 C within 3 m.  
+Sensor drift corrections to shipboard CTD casts and/or other gliders should be reported (see GROOM-FP7 D5.3). 
+
+
