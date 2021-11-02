@@ -72,3 +72,12 @@ On SeaExplorer gliders, the CTDs are typically installed in the flooded nose con
 - insert image: "Fig. X : RBRlegato CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))"
 
 In case of the Seabird GPCTD, the sensors are integrated on the wet payload part located on the front nose of theSeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.
+
+- insert image: "Figure : Left: Seabird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma)"
+
+#### Petrel Glider
+The small-size RBR legato3 CTD is embedded in the front fairing of the Petrel glider. 
+The C-T sensors are exposed outside the fairing to sense the ambient seawater. 
+This integration design can minimize the impact of the CTD on the streamline of gliders. 
+
+- insert image: "Figure XX: Petrel Glider integrated an RBR legato3 CTD in the front fairing. (Image credit: Joe Wang)"
