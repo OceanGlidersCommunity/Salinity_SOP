@@ -1,0 +1,33 @@
+# Details for attribution and permission for each of the images
+
+- `100-0-calibration.png` - Tania Morales
+- `ARODFTSensor.jpg` - Voice of the Ocean Foundation, Bastien Queste
+- `biofouling_combined_Mario_Mueller.png` - Mario Mueller
+- `biofouling_01_Mario_Mueller.jpg` - Mario Mueller
+- `biofouling_02_Mario_Mueller.jpg` - Mario Mueller
+- `biofouling_data_01_gerd_krahmann.png` - Gerd Krahmann
+- `biofouling_data_02_gerd_krahmann.png` - Gerd Krahmann
+- `biofouling_data_combined_gerd_krahmann.png` - Gerd Krahmann
+- `case_01_issue.png` - Soeren Thomsen
+- `CoastalDeployment.png` - Tania Morales
+- `CTD_calibration_XX.png` - Johannes Hahn
+- `Datalogger.png`- Johannes Hahn
+- `dryfoil.png` - Tom Hull, Cefas
+- `edit_markdown_file.png` - Soeren Thomsen
+- `EUROSEA.png` - EuroSea
+- `geomar_ox_example.png` - Gerd Krahmann
+- `GROOM2_logo.png`- GROOM2
+- `logo.png`- OceanGliders
+- `logo_v02_1_contour.png` - OceanGliders
+- `logo-ocean-gliders.png` - OceanGliders
+- `multiparametersonde.png`- Tania Morales
+- `OGIVE.png` - Tom Hull, Cefas
+- `Rinko.png` - Voice of the Ocean Foundation, Bastien Queste
+- `RTQC_check_Doxy_combined.png` - Virgine Racape
+- `SAMBA.png` - Bastien Queste, University of Gothenburg
+- `slocum.jpg`
+- `slocum_better_location.jpg` - Matthew Palmer, NOC
+- `storage.jpg`- Patricia Lopez-Garcia
+- `TerminalProgram.jpg`- Patricia Lopez-Garcia
+- `winkler-ballasting.png`- Tania Morales
+- `AaanderaasensorsAll1`- Patricia Lopez-Garcia

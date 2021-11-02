@@ -1,0 +1,26 @@
+name: GitHub Actions Pandoc - HTML
+#on: [push] # be careful, don't get in a commit-loop :D
+on: [workflow_dispatch]
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get files
+        uses: actions/checkout@v2
+          
+      - name: Load pandoc
+        uses: docker://pandoc/core:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            --standalone
+            --bibliography oxygen.bib
+            --output=index.html
+            oxygen.md
+          
+      - name: Commit file
+        run: |
+          git config --global user.name 'Github actions bot'
+          git config --global user.email ''
+          git add index.html
+          git commit -m "automated pandoc build"
+          git push
