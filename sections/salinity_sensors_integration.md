@@ -52,3 +52,11 @@ The RBRlegato3 has a manufacturer-provided accuracy of ± 0.002°C (ITS-90) over
 #### Spray
 - expert missing
 
+#### Seaglider
+On Seagliders the Sea-Bird electronics supplied CT-Sail is mounted on the upper side of the glider pressure hull. 
+Flow past the CT sensors relies solely on the movement of the glider. 
+Sea-Bird no longer lists the CT-Sail but is manufactured on request by integrators. 
+The Glider Payload CTD replaces the CT-Sail and was developed for easier integration and improved data output associated with the addition of a pump to control flow past the sensors. 
+The GPCTD is installed between the pressure hull and the fairing in the aft-flooded payload bay. 
+
+- insert image: "Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Isabelle Giddy)"
