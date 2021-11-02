@@ -19,7 +19,7 @@ The conductivity sensor itself is positioned within a metal housing with hole cu
 Power consumption is 21 mW while profiling. 
 The sampling speed is set by the user, typically to 2 Hz.  
 
-Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity: &pm 0.0003 S/m over a range of 0 to 7 S/m; Temperature:  &pm 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure:  &pm 2 dbar over a range of 0-2000 m (datasheet_sbe41-1.pdf).
+Seabird provided CTD SBE41-sensor accuracy ratings: Conductivity: $\pm$ 0.0003 S/m over a range of 0 to 7 S/m; Temperature:  $\pm$ 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: $\pm$ 2 dbar over a range of 0-2000 m (datasheet_sbe41-1.pdf).
 
 - insert image "Fig x: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)" add arrows!
 
@@ -29,7 +29,7 @@ The GPCTD improves on the CT-Sail through simpler installation requirements as w
 The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow (Janzen and Creed, 2011). 
 Power consumption is 175 mW when continuously recording at 1 Hz. 
 
-Seabird provided GPCTD accuracy ratings are: Conductivity: &pm 0.0003 S/m over a range of 0 to 9 S/m; Temperature:  &pm 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure:  &pm 0.1% of full scale range, up to 2000 m (datasheet-GliderPayloadCTD-Aug15-2.pdf). 
+Seabird provided GPCTD accuracy ratings are: Conductivity: $\pm$ 0.0003 S/m over a range of 0 to 9 S/m; Temperature:  $\pm$ 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: $\pm$ 0.1% of full scale range, up to 2000 m (datasheet-GliderPayloadCTD-Aug15-2.pdf). 
 
 - insert image "Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Isabelle Giddy)" add arrows!
 
@@ -43,7 +43,7 @@ Its advantages are a large unpumped flow cell, reducing occurrence of spikes due
 As such, it is very good for near-surface applications and slow glider speeds, as well as for glider missions involving instrumentation sensitive to vibration (e.g., shear probes) or noise (e.g., acoustic packages). 
 The Legato has low power consumption (45 mW) when sampling at 2 Hz. Its profile and low power have many benefits, but the inductive cell and relative youth of the sensor leave some open questions regarding long term accuracy.
 As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (such as the oxygen Coda optode) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider. 
-The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of &pm 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C (https://rbr-global.com/products/oem/rbrlegato). 
+The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of $\pm$ 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C (https://rbr-global.com/products/oem/rbrlegato). 
 
 ## Sensor integratons with gliders
 
@@ -69,7 +69,7 @@ On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is install
 #### SeaExplorer
 On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (Fig X left), though the RBR*legato*<sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in Fig X. right. 
 
-- insert image: "Fig. X : RBRlegato CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))"
+- insert image: "Fig. X : RBR*legato*<sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))"
 
 In case of the Seabird GPCTD, the sensors are integrated on the wet payload part located on the front nose of the SeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.
 
@@ -77,7 +77,7 @@ In case of the Seabird GPCTD, the sensors are integrated on the wet payload part
 
 #### Petrel Glider
 The small-size RBR*legato*<sup>3</sup> CTD is embedded in the front fairing of the Petrel glider. 
-The C-T sensors are exposed outside the fairing to sense the ambient seawater. 
+The CT sensors are exposed outside the fairing to sense the ambient seawater. 
 This integration design can minimize the impact of the CTD on the streamline of gliders. 
 
 - insert image: "Figure XX: Petrel Glider integrated an RBR*legato*<sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)"
