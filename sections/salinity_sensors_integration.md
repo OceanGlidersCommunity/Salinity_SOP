@@ -65,3 +65,10 @@ The GPCTD is installed between the pressure hull and the fairing in the aft-floo
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
 
 - insert image: "Fig. X: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Isabelle Giddy)"
+
+#### SeaExplorer
+On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (Fig X left), though the RBR legato can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in Fig X. right. 
+
+- insert image: "Fig. X : RBRlegato CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))"
+
+In case of the Seabird GPCTD, the sensors are integrated on the wet payload part located on the front nose of theSeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.
