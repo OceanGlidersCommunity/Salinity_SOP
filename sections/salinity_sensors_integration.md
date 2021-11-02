@@ -45,3 +45,10 @@ The Legato has low power consumption (45 mW) when sampling at 2 Hz. Its profile 
 As a logger, the RBRlegato3 can also integrate other RBR sensors (such as the oxygen Coda optode) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider. 
 The RBRlegato3 has a manufacturer-provided accuracy of ± 0.002°C (ITS-90) over a range of -5 to +35°C (https://rbr-global.com/products/oem/rbrlegato). 
 
+## Sensor integratons with gliders
+
+### Mounting location
+
+#### Spray
+- expert missing
+
