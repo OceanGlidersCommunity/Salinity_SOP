@@ -65,7 +65,7 @@ Provided images for the Seabird GPCTD on SeaExplorer integration.
 [Nikolaos D. Zarokanellos](https://github.com/nizaroka) wrote parts on the pump malfunction and biofouling.  
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-[Pierre Testor](https://github.com/ptestor) joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
+[Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
 [Julius Busecke](https://github.com/jbusecke) 
 
