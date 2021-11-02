@@ -75,3 +75,5 @@ Note that this work is still on-going, so the procedures are expected to be upda
 
 - implement IMOS https://catalogue-imos.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=b82ec5c4-3b6a-4a39-a4e7-f1adba2d5372
 
+- insert image: "Figure x: Example thermal lag effect in T/S (Isabelle Giddy)
+note to include examples of thermal lag in different regions (beta vs alpha, highly stratified/double stratified)"
