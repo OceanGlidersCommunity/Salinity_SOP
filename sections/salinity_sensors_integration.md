@@ -11,3 +11,11 @@ Pumped CT sensors on the other hand, have a constant through-flow rate, allowing
 ### Seabird
 Conductivity, temperature and depth (CTD) sensors distributed by sea-bird electronics is currently the most widely used sensor on gliders. 
 
+#### Unpumped
+The CT-Sail is a free-flushed (unpumped) CTD (SBE41) and was the first science payload installed in the Seaglider (Janzen and Creed, 2011) and remains widely in use. 
+The separate temperature and conductivity are installed on the upper side of the glider pressure hull and integrated with the internal glider data acquisition and flight control system. 
+On the CT sail the temperature sensor is positioned beneath and parallel to the conductivity sensor. 
+The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
+Power consumption is 21 mW while profiling. 
+The sampling speed is set by the user, typically to 2 Hz.  
+
