@@ -60,3 +60,8 @@ The Glider Payload CTD replaces the CT-Sail and was developed for easier integra
 The GPCTD is installed between the pressure hull and the fairing in the aft-flooded payload bay. 
 
 - insert image: "Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Isabelle Giddy)"
+
+#### Slocum
+On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
+
+- insert image: "Fig. X: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Isabelle Giddy)"
