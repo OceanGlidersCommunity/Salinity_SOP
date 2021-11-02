@@ -59,7 +59,7 @@ SOCIB implements the Garau et al (2011) method.
 ##### UEA Glider Toolbox
 UEA glider toolbox implements Garau et al (2011), using GEOMAR / Gerd Krahmann polynomials and an empirical regression of alpha and tau absolutes and offsets.
 
-##### Daniel Wang, Donglai Gong and Travis Miles (to be published)
+##### New method by Daniel Wang, Donglai Gong and Travis Miles (to be published)
 An improved methodology is proposed by Daniel Wang, Donglai Gong and Travis Miles to correct the thermal lag error in pumped glider CTDs with a specific focus on glider data from the MAB and other highly stratified oceans. 
 The method has been tested and validated on Slocum gliders with pumped Seabird CTDs. 
 An updated thermal lag correction algorithm was developed based on Garau et al. (2011) and it introduces a new cost function for calculating the pairwise thermal lag correction coefficients in highly stratified oceans. 
@@ -69,4 +69,9 @@ Based on the observed temperature gradient at the thermocline, the algorithm the
 The improved method was able to eliminate most of the mismatches of salinity and density profiles between adjacent down up casts, and also fixed the problem of mismatching water mass identities in the T/S space.
 Salinity spikes up to 0.5 and density inversions up to 0.2 kg/m3 the vertical profiles were successfully corrected.
 
+#### RBRlegato3
+Recommended procedures by RBR themselves using internal and external temperature of the logger as detailed in their “Data processing and dynamic corrections for the RBRlegato³ CTD” report. 
+Note that this work is still on-going, so the procedures are expected to be updated in the near future.
+
+- implement IMOS https://catalogue-imos.aodn.org.au/geonetwork/srv/en/metadata.show?uuid=b82ec5c4-3b6a-4a39-a4e7-f1adba2d5372
 
