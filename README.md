@@ -7,7 +7,7 @@ This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) S
 Read the SOP [here] (add link after deployment mid November). 
 
 ## Community review
-The community review is open from November 2021 to February 31 2022.
+The community review is open from November 2021 to February 28 2022.
 Please read our [Code of Conduct](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23) to ensure you follow the community rules.
 
 ### Who is invited to review?
