@@ -23,3 +23,16 @@ Applying the minimization per mission makes the assumption that the shape of the
 In cases in which the hydrodynamic coefficients change (e.g. if there is biofouling), per dive or multiple dive segments may be a preferable choice. 
 
 It should be noted that because such corrections require interpolating to a regular time grid, the (1) interpolation method and (2) correction scheme, can introduce energy at specific frequencies in post processing which can bias any form of spectral analysis for TS data down the line (ref to RBR Legato Dynamic Corrections report - https://oem.rbr-global.com/floats/files/5898249/34668603/1/1586804683000/0008228revA+Dynamic+corrections+for+the+RBRargo+CTD+2000dbar.pdf).  
+
+The corrections we propose are therefore:
+
+### Spatial alignment correction
+Apply offset to account for the spatial offset in sensor location on the platform, if needed.
+
+### Temporal alignment
+Align temperature, conductivity and pressure sensors in time.
+
+### Interpolate to consistent timestamps
+Interpolate to consistent timestamp between sensors.
+
+
