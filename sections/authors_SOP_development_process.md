@@ -28,7 +28,9 @@
 3) Virtual expert meeting on July 22 organized by Isabelle Giddy and Soeren Thomsen to kick start the SOP writing. [Agenda](https://docs.google.com/document/d/1Bzj916qYsY04QVmZdiBztdeCrOJoJm084ORxN6HFVC4/edit)   
 Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabelle Giddy](https://github.com/isgiddy), [Pierre Testor](https://github.com/ptestor), [Nikolaos Zarokanellos](https://github.com/nizaroka), Daniel Wang, [Louis Clement](https://github.com/LouClement), [Clark Richards](https://github.com/richardsc), Donglai Gong, Travis Miles
 
-4) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) November 2021. 
+4) New authors joined: [Anthony Bosse](https://github.com/AnthonyBosse), [Evi Bourma](https://github.com/evibourma), Mathieu Dever, [Gerd Krahmann](https://github.com/gkrahmann), Joe Wang in September / October 2021.
+
+5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) November 2021. 
 
 ## Contributions 
 
