@@ -10,5 +10,5 @@ The first section describes the available sensors and their integration with gli
 | Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  ATM Petrel |  Information |
 |---|---|---|---|---|---|---|---|---|
 | Seabird - Glider Payload CTD and Slocum Glider CTD (pumped) | X |   | X | X | X |   |   | [Link](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712#); [Slocum specific](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713)|
-| Seabird - CT-Sail  (unpumped) |   |   | X |   | X |   |    |[Link](https://www.jfe-advantech.co.jp/eng/ocean/rinko/rinko22d.html) |
-| RBRlegato3 (unpumped) | X |   | X |   | X |   | X | [Link](https://www.jfe-advantech.co.jp/eng/ocean/rinko/rinko-ft.html) |
+| Seabird - CT-Sail  (unpumped) |   |   | X |   | X |   |    | CT-Sail (provided by Sea-Bird on request) |
+| RBRlegato3 (unpumped) | X |   | X |   | X |   | X | [Link](https://rbr-global.com/products/oem/rbrlegato) |
