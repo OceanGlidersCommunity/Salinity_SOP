@@ -45,4 +45,12 @@ Often, the correction is not perfect: the remaining error can be reported as a R
 There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
 
 #### Unpumped Seabird CT cell on seagliders
+Basestation processing developed by Charlie Eriksen (unpublished). 
+The correction is based on an iterative thermal diffusion scheme through layers in the water column. 
+
+#### Pumped Seabird CT cell mounted on SLOCUM gliders 
+GEOMAR implements the Garau et al. (2011) method with updated coefficients. 
+
+#### Pumped and unpumped Seabird CT cell
+
 
