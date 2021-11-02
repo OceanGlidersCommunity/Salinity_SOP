@@ -1,119 +1,82 @@
 # Authors, development process and contributions
 
 ## Authors
-  1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
-  1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
+  1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden*
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France*
-  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
+  1. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
+  1. [Louis Clement](https://github.com/LouClement), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
   1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
-  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-  1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
-  1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-  1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
-  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
-  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
-  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
-  1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain*
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*
+  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
+  1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
-  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
   1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
-  2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
+  1. [Anthony Bosse](https://github.com/AnthonyBosse), *MIO, Aix-Marseille University, Marseille, France*
+  1. Donglai Gong, *Virginia Institute of Marine Science* 
+  1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
+  1. Travis Miles, *Rutgers, USA*
+  1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
+  1. Mathieu Dever, *RBR, Ottawa, Canada*
+  1. Joe Wang, *AMT, Advanced Marine Technology Group Limited*
 
 ## SOP development process
 
-1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
+1) Initial SOP structure was drafted by Donglai Gong and [Soeren Thomsen](https://github.com/soerenthomsen) during OceanGliders Best Practice Workshop between May 11 and 25 2021
 
-2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), [Gerd Krahmann](https://github.com/gkrahmann), [Charlotte Williams](https://github.com/charlotte-aj-williams), Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
+2) [Isabelle Giddy](https://github.com/isgiddy) and [Soeren Thomsen](https://github.com/soerenthomsen) restructured the draft version in early July 2021 and invited more experts to join.
 
-3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
+3) Virtual expert meeting on July 22 organized by Isabelle Giddy and Soeren Thomsen to kick start the SOP writing. [Agenda](https://docs.google.com/document/d/1Bzj916qYsY04QVmZdiBztdeCrOJoJm084ORxN6HFVC4/edit)   
+Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabelle Giddy](https://github.com/isgiddy), [Pierre Testor](https://github.com/ptestor), [Nikolaos Zarokanellos](https://github.com/nizaroka), Daniel Wang, [Louis Clement](https://github.com/LouClement), [Clark Richards](https://github.com/richardsc), Donglai Gong, Travis Miles
 
-4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke) in September 2021. 
-
-5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke).
-
-6) At the moment: 4 months community review on GitHub until 31 January 2022.
-
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc)
+4) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen)November 2021. 
 
 ## Contributions 
 
-[Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
-Main contribution to: Introduction section (producing Table 1 from information gathered from glider users and completing information for Clark electrodes sensors SBE 43/63), Pre-deployment operations and calibrations section (subsections Storage and cleaning and Pre-deployment calibrations), Post-recovery operations and calibrations section. 
-She added some images to the document. 
-She co-chaired two oxygen expert sessions during the OceanGliders Best Practice workshop in May 2021. 
-She implemented discussions and comments from expert sessions. 
-She reviewed and edited all parts of the SOP. She helps to maintain the SOP on GitHub.
+[Isabelle Giddy](https://github.com/isgiddy) Restructured and revised the initial draft document after Soeren Thomsen and Donglai Gong.   Edited the whole document and implemented comments and suggestions.  
+Wrote the CT sensors, integration with Seaglider and SLOCUM, added comments regarding CT-pump failure, draft of DMQC and thermal lag sections.    
+Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.  Moved the SOP to GitHub and will maintain it there at least until the first release and final publication. 
 
-[Tom Hull](https://github.com/tomhull) drafted the initial document. 
-He wrote the introduction such as the detailed description of the different Aanderaa optodes/foil types. 
-He implemented discussions and comments from the expert sessions. 
-Drafted and revised the Delayed Mode Quality Control section. 
-He co-chaired one oxygen expert session during the OceanGliders Best Practice workshop in May 2021. 
-He reviewed and edited all parts of the SOP. 
-He helps to maintain the SOP on GitHub.
+[Soeren Thomsen](https://github.com/soerenthomsen) Scoped the initial draft together with Donglai Gong.   
+Reviewed the overall document and comments. Coordinates the overall SOP production process.  
+Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.  
+Moved the SOP to GitHub and will maintain it there at least first release and until final publication.
 
-[Soeren Thomsen](https://github.com/soerenthomsen) initiated the development of the oxygen SOP in February 2021. 
-Drafted the initial document. 
-Coordinated the whole development process including organising multiple meetings, e.g. two expert sessions during the OceanGliders Best Practice Workshop. 
-He gave specific content input on the two point 0 / 100 % and Oxygen Minimum Zone calibration procedure. 
-He reviewed and edited all parts of the SOP. 
-He helps to maintain the SOP on GitHub.
+[Bastien Y. Queste](https://github.com/bastienqueste) Wrote the RBR Legato and Sea Explorer section. Reviewed the thermal lag section and commented on the overall document. 
 
-[Johannes Hahn](https://github.com/hahn-johannes) drafted the initial document. 
-He gave specific content input on the sections pre-deployment, operations and calibrations such as key parts like the multipoint calibration section where he provided specific values related to sensor and foil accuracy and specifications. 
-He further provided images related to CTD calibration procedures. 
-He joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+[Gerd Krahmann](https://github.com/gkrahmann) reviewed biofouling and thermal lag sections. 
 
-[Bastien Y. Queste](https://github.com/bastienqueste) co-wrote the JFE Advantech RINKO and seaglider section of the introduction. 
-He provided multiple images such as the seaglider example deployment in the Bornholm Basin. 
-Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021. 
-He provided detailed feedback on the delayed mode quality control section.
+[John Kerfoot](https://github.com/kerfoot) wrote parts of the DMQC section.  
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-[Gerd Krahmann](https://github.com/gkrahmann) provided input to the Real Time Data Processing and Quality Control section. 
-He provided examples of biofouling including the effect on the oxygen data.
-He revised the Delayed Mode Quality Control Section and provided example images of the GEOMAR time delay correction methods. 
-He joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021. 
+[Daniel Haixing Wang](https://github.com/KingSeaStar) wrote parts of the thermal lag correction section.  
+ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-[Charlotte Williams](https://github.com/charlotte-aj-williams) wrote section 3.3.1.3. on Slocum sensor integration and mounting. 
-She joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+Travis Miles wrote parts of the thermal lag correction section. Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
-Mun Woo gave specific content input to the Delayed Mode Quality Control Section. 
-Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+[Louis Clement](https://github.com/LouClement) wrote parts of the biofouling section related to the flight model.  
+Reviewed the whole document and gave comments.  
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-Charitha Pattiaratchi gave specific content input to the Delayed Mode Quality Control Section. Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+[Eva Alou-Font](https://github.com/ealou) wrote the preventative measure for biofouling on GPCTD section.    
+Provided images for the Seabird GPCTD on SeaExplorer integration.
 
-[Laurent Coppola](https://github.com/laurcopp) gave specific content input on the sections pre-deployment, operations and calibrations such as key parts like the multipoint calibration section where he provided specific values related to sensor and foil accuracy and specifications. 
-He co-wrote the JFE Advantech RINKO section of the introduction. 
-He co-chaired one oxygen expert session during the OceanGliders Best Practice workshop.
+[Nikolaos D. Zarokanellos](https://github.com/nizaroka) wrote parts on the pump malfunction and biofouling.  
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-Tania Morales contributed to the content of sections pre-deployment, operations and calibrations including images for the coastal deployment at PLOCAN. 
+[Pierre Testor](https://github.com/ptestor) joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-[Virginie Racapé](https://github.com/vracape) co-wrote the Real Time Quality Control section.
+[Julius Busecke](https://github.com/jbusecke) 
 
-[Claire Gourcuff](https://github.com/cgourcuf) co-wrote the Real Time Quality Control section.
+[Clark Richards](https://github.com/richardsc) provided images for the  RBR legato on SeaExplorer integration.    
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
-John Allen provided feedback to the overall document. 
+Mattieu Dever wrote the RBR Legato section.
 
-[Eva Alou-Font](https://github.com/ealou) provided feedback to the overall document. 
+Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image.  
 
-[Nikolaos D. Zarokanellos](https://github.com/nizaroka) provided feedback to the overall document. 
+[Anthony Bosse](https://github.com/AnthonyBosse) reviewed the document and added details on the salinity comparison with external CTDs and example of pumped CTD malfunction.
 
-[Victor Turpin](https://github.com/vturpin) wrote the parts related to the OceanGliders data management. 
-
-[Catherine Schmechtig](https://github.com/catsch) co-wrote the Real Time Quality Control section.
-
-[Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. 
-He reviewed the overall document and provided feedback on the overall document. 
-
-[Julius Busecke](https://github.com/jbusecke) supported the moving to GitHub and jupyter books. He helped to better facilitate the community review i.e. by implementing the commenting function via utterances-bot.
-
-[Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor section.
-
-[Clark Richards](https://github.com/richardsc) provided input to the SBE43 sensor section.
-
+Donglai Gong initiated the development of the SOP during OceanGliders Best Practice Workshop in May 2021.  
+He joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
