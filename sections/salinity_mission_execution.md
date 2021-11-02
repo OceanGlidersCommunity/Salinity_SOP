@@ -29,3 +29,9 @@ Corresponding with 5.2, the glider should complete a dive at the beginning and e
 Coordination between the recovery group and the pilots is essential. 
 In the case where this is not possible, the deep water (from 600-1000 m) measurement from the nearest CTD in space (not time) can also be used as deep water masses tend to be relatively invariant at longer timescales (weeks-months). 
 Further comparison can be made in the case of multiple gliders being deployed in parallel, these can be piloted such that they cross paths every intermittently for inter-comparison.
+
+### Gather data to help correct for sensor response time 
+Regular up- and down casts are needed to estimate and correct for the sensor response time. 
+Combined up- and downcasts should be carried out at least every week and particularly at the beginning and at the end of the deployment. 
+One to two days per week appear to be a reasonable compromise between energy saving and calibration quality. 
+If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.
