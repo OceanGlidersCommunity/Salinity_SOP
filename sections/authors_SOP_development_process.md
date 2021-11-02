@@ -34,7 +34,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 [Isabelle Giddy](https://github.com/isgiddy) Restructured and revised the initial draft document after Soeren Thomsen and Donglai Gong. 
 Edited the whole document and implemented comments and suggestions.
-Wrote the CT sensors, integration with Seaglider and SLOCUM, added comments regarding CT-pump failure, draft of DMQC and thermal lag sections.    
+Wrote the CT sensors, integration with Seaglider and SLOCUM, added comments regarding CT-pump failure, draft of DMQC and thermal lag sections.
 Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 Moved the SOP to GitHub and will maintain it there at least until the first release and final publication. 
 
