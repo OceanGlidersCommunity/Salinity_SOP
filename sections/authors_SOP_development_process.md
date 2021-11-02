@@ -44,9 +44,25 @@ Reviewed the overall document and comments. Coordinates the overall SOP producti
 Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 Moved the SOP to GitHub and will maintain it there at least first release and until final publication.
 
+[Evi Bourma](https://github.com/evibourma) wrote the preventative measure for biofouling on GPCTD section.    
+Provided images for the Seabird GPCTD on SeaExplorer integration. 
+Reviewed the whole document and gave comments.  
+
+[Louis Clement](https://github.com/LouClement) wrote parts of the biofouling section related to the flight model.  
+Reviewed the whole document and gave comments.  
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
+
 [Bastien Y. Queste](https://github.com/bastienqueste) Wrote the RBR Legato and Sea Explorer section. Reviewed the thermal lag section and commented on the overall document. 
 
+[Nikolaos D. Zarokanellos](https://github.com/nizaroka) wrote parts on the pump malfunction and biofouling.  
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
+
+[Anthony Bosse](https://github.com/AnthonyBosse) reviewed the document and added details on the salinity comparison with external CTDs and example of pumped CTD malfunction.
+
 [Gerd Krahmann](https://github.com/gkrahmann) reviewed biofouling and thermal lag sections. 
+
+[Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. 
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
 [John Kerfoot](https://github.com/kerfoot) wrote parts of the DMQC section.  
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
@@ -54,19 +70,8 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 [Daniel Haixing Wang](https://github.com/KingSeaStar) wrote parts of the thermal lag correction section.  
  Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-Travis Miles wrote parts of the thermal lag correction section. Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
-
-[Louis Clement](https://github.com/LouClement) wrote parts of the biofouling section related to the flight model.  
-Reviewed the whole document and gave comments.  
-Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
-
-[Eva Alou-Font](https://github.com/ealou) wrote the preventative measure for biofouling on GPCTD section.    
-Provided images for the Seabird GPCTD on SeaExplorer integration.
-
-[Nikolaos D. Zarokanellos](https://github.com/nizaroka) wrote parts on the pump malfunction and biofouling.  
-Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
-
-[Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
+Travis Miles wrote parts of the thermal lag correction section. 
+Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
 [Clark Richards](https://github.com/richardsc) provided images for the  RBR legato on SeaExplorer integration.    
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
@@ -74,8 +79,6 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 Mattieu Dever wrote the RBR Legato section.
 
 Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image.  
-
-[Anthony Bosse](https://github.com/AnthonyBosse) reviewed the document and added details on the salinity comparison with external CTDs and example of pumped CTD malfunction.
 
 Donglai Gong initiated the development of the SOP during OceanGliders Best Practice Workshop in May 2021.  
 He joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
