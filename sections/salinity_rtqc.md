@@ -1,6 +1,6 @@
 # Required Metadata, Real Time Data Processing & Quality Control
 
-This chapter has to be co-developed with the datamanagement team, the Data Assembly Centers (DACs) and Gui's RTQC group. 
+This chapter has to be co-developed with the OceanGlidesr Data Management Task Team, the Data Assembly Centers (DACs) and Gui's (@astelao) RTQC group or links provided to existing documents etc (to be discussed).
 
 ## Required Metadata and Real Time Data Processing
 - link to Metadata requirements of the OG Format
