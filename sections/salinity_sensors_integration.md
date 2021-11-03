@@ -49,6 +49,7 @@ Its advantages are a large unpumped flow cell, reducing occurrence of spikes due
 As such, it is very good for near-surface applications and slow glider speeds, as well as for glider missions involving instrumentation sensitive to vibration (e.g., shear probes) or noise (e.g., acoustic packages). 
 The Legato has low power consumption (45 mW) when sampling at 2 Hz. Its profile and low power have many benefits, but the inductive cell and relative youth of the sensor leave some open questions regarding long term accuracy.
 As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (such as the oxygen Coda optode) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider. 
+
 The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C. 
 
 ## Sensor integratons with gliders
