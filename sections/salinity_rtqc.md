@@ -23,7 +23,7 @@ XXX
 
 XXX
 
-### Effects of biofouling on optode measurements
+### Pump malfunction
 
 While pumped conductivity cells are desirable as thermal-inertia is generally reduced, pumped conductivity cells are more prone to malfunction than unpumped cells. The two primary issues experienced by the pumped cells are 1) pump failure and 2) biofouling. 
 
