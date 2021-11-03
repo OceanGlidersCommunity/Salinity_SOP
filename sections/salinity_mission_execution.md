@@ -8,7 +8,11 @@ Commonly, gliders are deployed from large ships or small boats.
 Recently, gliders have been deployed from an AutoNaut (UEA). 
 If sensor caps are required, these should be removed before the glider enters the water. 
 
-- image missing "Fig x: Deployment of Seaglider using a winch (S.A Agulhas II)"
+:::{figure-md} glider deployment
+<img src="../images/giddy_SA_Agulhas.png" alt="Glider deployment" class="bg-primary mb-1" width="600px">
+
+ Deployment of Seaglider using a winch (S.A Agulhas II)
+:::
 
 ## Colocated CTD profiles for post-mission sensor correction
 On deployment and recovery of the glider, an in situ comparison-CTD cast should be completed. 
