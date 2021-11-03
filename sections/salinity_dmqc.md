@@ -15,7 +15,7 @@ The correction depends on the speed with which the water flows through the condu
 For pumped CTDs, the flow through the CT cell is known and constant, thus corrections like Garau et al. (2011) can be simplified to use only constant thermal-inertia corrections, however these corrections are generally worse around the thermocline because: 1) the glider speed may change as a result of stratification; 2) there is a rapid vertical change in temperature and/or salinity. 
 In the case of unpumped CTDs, for increased accuracy, we recommend using the modelled velocity of the glider through the water (based on the flight model) to estimate the flushing speed of the CT cell, which can be used to correct for the temperature offset (reference to Depth Averages Current (DAC) SOP). 
 The flight model can be improved by following pre-deployment and piloting protocols as per the DAC SOP. 
-The amplitude of the error, <p>&#945</p>, and the time offset constant, <p>&#964</p>, are used to correct for thermal mass offset. 
+The amplitude of the error, ɑ, and the time offset constant, 𝜏, are used to correct for thermal mass offset. 
 These parameters can be estimated by minimizing the difference between up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by Morrison et al (2004). 
 One can elect to apply this minimization per dive or over the whole mission. 
 Per dive tends to give cleaner data but can sometimes mask real signals (if regressed in depth, z). 
