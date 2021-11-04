@@ -24,6 +24,7 @@ Example:
 - `logo-ocean-gliders.png` - OceanGliders
 - `logo.png` - OceanGliders
 - `logo_v02_1_contour.png` - OceanGliders
+- `queste_clark_rbr_legato.png` - Bastien Queste
 - `socco_biofouling_example.png` - Sebastiaan Swart/CSIR-SOCCO
 - `submit_new_issue.png` - Soeren Thomsen
 - `suggest_edit_01.png` - Soeren Thomsen
