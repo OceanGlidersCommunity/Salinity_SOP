@@ -14,6 +14,13 @@ Example:
 - `general_comment_step_01.png` - Soeren Thomsen
 - `general_comment_step_02.png` - Soeren Thomsen
 - `general_comment_step_03.png` - Soeren Thomsen
+- `giddy_CT_sail` - Isabelle Giddy
+- `giddy_SA_Agulhas.png` - Isabelle Giddy
+- `giddy_TS_correction.png` - Isabelle Giddy 
+- `giddy_example_TL.png` - Isabelle Giddy
+- `giddy_seaglider_CTSail.png` - Isabelle Giddy 
+- `giddy_slocum_CTD.png` - Isabelle Giddy 
+- `giddy_slocum_glider_CTD.png` - Isabelle Giddy
 - `logo-ocean-gliders.png` - OceanGliders
 - `logo.png` - OceanGliders
 - `logo_v02_1_contour.png` - OceanGliders
