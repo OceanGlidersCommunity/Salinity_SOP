@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'OceanGlidersCommunity/Oxygen_SOP'
+    if: github.repository == 'OceanGlidersCommunity/Salinity_SOP'
     defaults:
       run:
         shell: bash -l {0}
