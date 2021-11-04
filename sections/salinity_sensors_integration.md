@@ -1,16 +1,20 @@
+(sensors-integration)=
 # Sensors and integrations
 
+(ctd-sensors)=
 ## CTD Sensors
-On gliders, currently three types of CTD-sensors are in use (see Table 1). 
-CT sensors can be unpumped (sections 2.1.1; 2.2) or pumped (section 2.1.2). 
-Unpumped CT sensors have lower power consumption requirements as well as reduced susceptibility to blockages/failures because of the larger throughflow pipe (section 6.3.4). 
+On gliders, currently three types of CTD-sensors are in use (see [Table 1](table1)). 
+CT sensors can be unpumped ([Sections 3.1.1.1](unpumped); [3.1.2](rbr-legato)) or pumped ([Section 3.1.1.2](pumped)). 
+Unpumped CT sensors have lower power consumption requirements as well as reduced susceptibility to blockages/failures because of the larger throughflow pipe ([Section 6.2.4](pump-malfunction)). 
 There is also reduced background vibration and noise, which is advantageous when measuring microstructure {cite}`fer_microstructure_2014`. 
-However, the disadvantage of the unpumped sensors is in the post processing correction for the effects of thermal-inertia because the flow rate through the inlet is not known and has to be estimated from the glider’s flight model (section 7). 
-Pumped CT sensors on the other hand, have a constant through-flow rate, allowing for a simpler correction of thermal-inertia. Nevertheless, both pumped and unpumped sensors require corrections for thermal-inertia (section 7). 
+However, the disadvantage of the unpumped sensors is in the post processing correction for the effects of thermal-inertia because the flow rate through the inlet is not known and has to be estimated from the glider’s flight model ([Section 8.1](dynamic-error-correction)). 
+Pumped CT sensors on the other hand, have a constant through-flow rate, allowing for a simpler correction of thermal-inertia. Nevertheless, both pumped and unpumped sensors require corrections for thermal-inertia ([Section 8.1](dynamic-error-correction)). 
 
+(sea-bird)=
 ### Sea-Bird
 Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electronics is currently the most widely used sensor on gliders. 
 
+(unpumped)=
 #### Unpumped
 The CT-Sail is a free-flushed (unpumped) CTD (SBE41) was the first science payload installed in the Seaglider {cite}`janzen_physical_2011` and remains widely in use. 
 The separate temperature and conductivity sensors are installed on the upper side of the glider pressure hull and integrated with the internal glider data acquisition and flight control system. 
@@ -27,6 +31,7 @@ Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/pro
 CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
 :::
 
+(pumped)=
 #### Pumped
 The [Glider Payload CTD (GPCTD)](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712) is a modular, self-contained CTD with memory and an integrated pump. 
 The GPCTD improves on the CT-Sail through simpler installation requirements as well as a pump which allows for constant flow through the conductivity sensor. 
@@ -43,6 +48,7 @@ Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on
 
 A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
 
+(rbr-legato)=
 ### RBR*legato*<sup>3</sup>
 The [RBR*legato*<sup>3</sup>](https://rbr-global.com/products/oem/rbrlegato) is an integrated CTD and logger package designed specifically for gliders with a hydrodynamic profile. 
 It is available in slow (1 s) and fast (0.1 s) response temperature options as well as normal (2 Hz) and fast (16 Hz) sampling speeds. 
@@ -54,13 +60,17 @@ As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (s
 
 The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C. 
 
+(integration)=
 ## Sensor integratons with gliders
 
+(mounting-location)=
 ### Mounting location
 
+(spray)=
 #### Spray
 - expert missing
 
+(seaglider)=
 #### Seaglider
 On Seagliders the Sea-Bird electronics supplied CT-Sail is mounted on the upper side of the glider pressure hull. 
 Flow past the CT sensors relies solely on the movement of the glider. 
@@ -74,6 +84,7 @@ The GPCTD is installed between the pressure hull and the fairing in the aft-floo
 Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
 :::
 
+(slocum)=
 #### Slocum
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
 
@@ -83,8 +94,9 @@ On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is install
 Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
 :::
 
+(seaexplorer)=
 #### SeaExplorer
-On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (Fig X left), though the RBR*legato*<sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in Fig X. right. 
+On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area ({numref}`RBR_LEGATO_SEAEXPLORER`, left), though the RBR*legato*<sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in {numref}`RBR_LEGATO_SEAEXPLORER`, right. 
 
 :::{figure-md} RBR_LEGATO_SEAEXPLORER
 <img src="/images/queste_clark_rbr_legato.png" alt="RBR_LEGATO_SEAEXPLORER" class="bg-primary mb-1" width="400px">
@@ -100,6 +112,7 @@ In the case of the Sea-Bird GPCTD, the sensors are integrated on the wet payload
 Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma)
 :::
 
+(petrel)=
 #### Petrel Glider
 The small-size RBR*legato*<sup>3</sup> CTD is embedded in the front fairing of the Petrel glider. 
 The CT sensors are exposed outside the fairing to sense the ambient seawater. 
@@ -111,5 +124,6 @@ This integration design can minimize the impact of the CTD on the streamline of 
 RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)
 :::
 
+(sensor-storage)=
 ### Sensor storage
 Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze. 
