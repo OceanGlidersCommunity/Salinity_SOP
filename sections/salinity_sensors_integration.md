@@ -23,7 +23,8 @@ Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/pro
 
 :::{figure-md} CT-SAIL
 <img src="/images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="400px">
-Figure xx: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
+
+CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
 :::
 
 #### Pumped
@@ -36,7 +37,8 @@ Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3
 
 :::{figure-md} SLOCUM-CTD
 <img src="/images/giddy_slocum_CTD.png" alt="SLOCUM-CTD" class="bg-primary mb-1" width="400px">
-Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
+
+Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
 :::
 
 A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
@@ -68,7 +70,8 @@ The GPCTD is installed between the pressure hull and the fairing in the aft-floo
 
 :::{figure-md} SEAGLIDER_CTSAIL
 <img src="/images/giddy_seaglider_CTSail.png" alt="SEAGLIDER_CTSAIL" class="bg-primary mb-1" width="400px">
-Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
+
+Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
 :::
 
 #### Slocum
@@ -76,7 +79,8 @@ On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is install
 
 :::{figure-md} SLOCUM-CTD_INSTALLED
 <img src="/images/giddy_slocum_glider_CTD.png" alt="SLOCUM-CTD-INSTALLED" class="bg-primary mb-1" width="400px">
-Figure xx: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
+
+Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
 :::
 
 #### SeaExplorer
@@ -84,13 +88,17 @@ On SeaExplorer gliders, the CTDs are typically installed in the flooded nose con
 
 :::{figure-md} RBR_LEGATO_SEAEXPLORER
 <img src="/images/queste_clark_rbr_legato.png" alt="RBR_LEGATO_SEAEXPLORER" class="bg-primary mb-1" width="400px">
-Figure xx: RBR*legato*<sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right)):::
+
+RBR*legato*<sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))
+:::
 
 In the case of the Sea-Bird GPCTD, the sensors are integrated on the wet payload part located on the front nose of the SeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.
 
 :::{figure-md} GPCTD
 <img src="/images/evi_GPCTD.png" alt="GPCTD" class="bg-primary mb-1" width="400px">
-Figure xx: Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma):::
+
+Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma)
+:::
 
 #### Petrel Glider
 The small-size RBR*legato*<sup>3</sup> CTD is embedded in the front fairing of the Petrel glider. 
@@ -99,7 +107,9 @@ This integration design can minimize the impact of the CTD on the streamline of 
 
 :::{figure-md} RBR_PETREL
 <img src="/images/wang_rbrlegato3.png" alt="RBR_PETREL" class="bg-primary mb-1" width="200px">
-Figure xx: RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)</b>:::
+
+RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)
+:::
 
 ### Sensor storage
 Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze. 
