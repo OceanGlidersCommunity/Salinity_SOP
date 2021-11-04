@@ -17,7 +17,7 @@ In the case of unpumped CTDs, for increased accuracy, we recommend using the mod
 The flight model can be improved by following pre-deployment and piloting protocols as per the DAC SOP. 
 The amplitude of the error, ɑ, and the time offset constant, 𝜏, are used to correct for thermal mass offset. 
 These parameters can be estimated by minimizing the difference between up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by {cite}`morison_correction_1994`. 
-One can elect to apply this minimization per dive or over the whole mission. 
+One can elect to apply this minimization per dive or over the whole mission.
 Per dive tends to give cleaner data but can sometimes mask real signals (if regressed in depth, z). 
 Applying the minimization per mission makes the assumption that the shape of the sensor doesn’t change and that the model is representative and so only one set of parameters is needed to represent a whole mission. 
 In cases in which the hydrodynamic coefficients change (e.g. if there is biofouling), per dive or multiple dive segments may be a preferable choice. 
