@@ -42,7 +42,8 @@ Often, the correction is not perfect: the remaining error can be reported as a R
 
 :::{figure-md} Example TL-corrected glider transect
 <img src="/images/giddy_TS_correctionL.png" alt="TL_correction" class="bg-primary mb-1" width="400px">
-Figure xx:Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). (Figure credit: Isabelle Giddy).:::
+
+Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). (Figure credit: Isabelle Giddy).
 :::
 
 There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
@@ -81,6 +82,7 @@ Note that this work is still on-going, so the procedures are expected to be upda
 
 :::{figure-md} Example TL-corrected glider transect
 <img src="/images/giddy_example_TL.png" alt="TL_correction" class="bg-primary mb-1" width="400px">
+
 Example of the thermal inertia effect on salinity before and after correction (Isabelle Giddy)
 :::
 
