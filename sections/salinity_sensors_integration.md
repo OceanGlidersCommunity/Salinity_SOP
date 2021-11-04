@@ -23,7 +23,8 @@ Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/pro
 
 :::{figure-md} CT-SAIL
 <img src="/images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="400px">
-Figure xx: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
+
+CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
 :::
 
 #### Pumped
@@ -37,7 +38,7 @@ Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3
 :::{figure-md} SLOCUM-CTD
 <img src="/images/giddy_slocum_CTD.png" alt="SLOCUM-CTD" class="bg-primary mb-1" width="400px">
 
-Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
+Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
 :::
 
 A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
@@ -70,7 +71,7 @@ The GPCTD is installed between the pressure hull and the fairing in the aft-floo
 :::{figure-md} SEAGLIDER_CTSAIL
 <img src="/images/giddy_seaglider_CTSail.png" alt="SEAGLIDER_CTSAIL" class="bg-primary mb-1" width="400px">
 
-Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
+Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
 :::
 
 #### Slocum
@@ -79,7 +80,7 @@ On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is install
 :::{figure-md} SLOCUM-CTD_INSTALLED
 <img src="/images/giddy_slocum_glider_CTD.png" alt="SLOCUM-CTD-INSTALLED" class="bg-primary mb-1" width="400px">
 
-Figure xx: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
+Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
 :::
 
 #### SeaExplorer
