@@ -24,9 +24,18 @@ Example:
 - `logo-ocean-gliders.png` - OceanGliders
 - `logo.png` - OceanGliders
 - `logo_v02_1_contour.png` - OceanGliders
-- `queste_clark_rbr_legato.png` - Bastien Queste
+- `queste_clark_rbr_legato.png` - Bastien Queste; Clark Richards
 - `socco_biofouling_example.png` - Sebastiaan Swart/CSIR-SOCCO
 - `submit_new_issue.png` - Soeren Thomsen
 - `suggest_edit_01.png` - Soeren Thomsen
 - `wang_rbrlegato3.png` - Joe Wang
-- `zarokanellos_Giddy_biofouling.png` - Nikolaos Zarokanellos 
+- `zarokanellos_Giddy_biofouling.png` - Nikolaos Zarokanellos; Isabelle Giddy
+- `bosse_conduc_failure.png` - Anthony Bosse
+- `bosse_conduc_failure2.png` - Anthony Bosse
+- `clark_richards_rbr_legato.JPG` - Clark Richards
+- `giddy-ct-sail.jpg` - Isabelle Giddy
+- `giddy-slocum-glider-gpctd` - Isabelle Giddy
+- `giddy-seaglider-ctsail` - Isabelle Giddy
+- `giddy-slocum-gpctd` - Isabelle Giddy
+- `queste_rbr_legato.png` - Bastien Queste
+- `wang_RBR Integration.jpg` - Joe Wang 
