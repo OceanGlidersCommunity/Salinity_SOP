@@ -40,10 +40,10 @@ Initially, the effects of thermal inertia can be visualised as a scatter plot of
 The effectiveness of the correction can then be checked similarly. 
 Often, the correction is not perfect: the remaining error can be reported as a RMSE of the difference between dives and climbs, as in Giddy et al., 2021. 
 
-<p align = "center"><img src="../images/giddy_TS_correction.png" alt="THERMAL-LAG" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b>Figure xx:Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). Figure credit: Isabelle Giddy.</b>
-</p>
+:::{figure-md} Example TL-corrected glider transect
+<img src="/images/giddy_TS_correctionL.png" alt="TL_correction" class="bg-primary mb-1" width="400px">
+Figure xx:Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). Figure credit: Isabelle Giddy.:::
+:::
 
 There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
 
@@ -79,7 +79,10 @@ Salinity spikes up to 0.5 and density inversions up to 0.2 kg m<sup>-3</sup> the
 Recommended procedures by RBR themselves using internal and external temperature of the logger as detailed in their “Data processing and dynamic corrections for the RBR*legato*<sup>3</sup> CTD” report. 
 Note that this work is still on-going, so the procedures are expected to be updated in the near future.
 
-- insert image: "Figure x: Example thermal lag effect in T/S (Isabelle Giddy)
+:::{figure-md} Example TL-corrected glider transect
+<img src="/images/giddy_example_TL.png" alt="TL_correction" class="bg-primary mb-1" width="400px">
+Example of the thermal inertia effect on salinity before and after correction (Isabelle Giddy)
+:::
 
 *note to include examples of thermal lag in different regions (beta vs alpha, highly stratified/double stratified)*
 
