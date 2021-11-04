@@ -18,3 +18,4 @@ Example:
 - `socco_biofouling_example.png` - Sebastiaan Swart/CSIR-SOCCO
 - `submit_new_issue.png` - Soeren Thomsen
 - `suggest_edit_01.png` - Soeren Thomsen
+- `zarokanellos_Giddy_biofouling.png` - Nikolaos Zarokanellos 
