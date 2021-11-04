@@ -6,7 +6,7 @@ While dynamic errors in conductivity and temperature are usually small relative 
 This is because, in many regions of the ocean salinity does not vary as much as conductivity and temperature. 
 Dynamic errors can, for example, create false density instability in profiles and false variation in mixed layer depths. 
 This is particularly important in beta oceans, where density is set by salinity variations (e.g. in polar regions; Gulf of Oman).
-Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`,{cite}`woo_imos_2021`.
+Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`,{cite}`woo_delayed_2021`.
 
 Four main sources of error are (i) spatial offsets in sensor location on the profiling platform, (ii) different sensor time-responses of the thermistor, conductivity sensor and pressure sensor, (iii) timestamping of sensor measurements, and (iv) the thermal-inertia effect. 
 
@@ -64,7 +64,7 @@ SOCIB implements the {cite}`garau_thermal_2011` method.
 UEA glider toolbox implements {cite}`garau_thermal_2011`, using GEOMAR / Gerd Krahmann polynomials and an empirical regression of alpha and tau absolutes and offsets.
 
 ##### Integrated Marine Observing System (IMOS)
-{cite}`woo_imos_2021` provide recommendations for the correction of thermal-intertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of {cite}`lueck_thermal_1990`,  generalised  by {cite}`morison_correction_1994` is implemented. In the case of unpumped CTDs, the method developed by {cite}`morison_correction_1994` is recommended over the more recent method by {cite}`garau_thermal_2011`, which modified {cite}`morison_correction_1994` to take into account variable flow speeds as a result of an unpumped CTD. Testing by {cite}`woo_imos_2021` found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
+{cite}`woo_delayed_2021` provide recommendations for the correction of thermal-intertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of {cite}`lueck_thermal_1990`,  generalised  by {cite}`morison_correction_1994` is implemented. In the case of unpumped CTDs, the method developed by {cite}`morison_correction_1994` is recommended over the more recent method by {cite}`garau_thermal_2011`, which modified {cite}`morison_correction_1994` to take into account variable flow speeds as a result of an unpumped CTD. Testing by {cite}`woo_delayed_2021` found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
 
 ##### New method by Daniel Wang, Donglai Gong and Travis Miles (to be published)
 An improved methodology is proposed by Daniel Wang, Donglai Gong and Travis Miles to correct the thermal lag error in pumped glider CTDs with a specific focus on glider data from the MAB and other highly stratified oceans. 
