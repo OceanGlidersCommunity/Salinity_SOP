@@ -74,7 +74,10 @@ Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Ima
 #### Slocum
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
 
-- insert image: "Fig. X: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Isabelle Giddy)"
+:::{figure-md} SLOCUM-CTD_INSTALLED
+<img src="/images/giddy_slocum_glider_CTD.png" alt="SLOCUM-CTD-INSTALLED" class="bg-primary mb-1" width="400px">
+Figure xx: Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)
+:::
 
 #### SeaExplorer
 On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (Fig X left), though the RBR*legato*<sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in Fig X. right. 
