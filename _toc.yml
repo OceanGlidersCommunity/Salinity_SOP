@@ -5,6 +5,7 @@ options:  # The options key will be applied to all chapters, but not sub-section
 sections:
 - file: sections/authors_SOP_development_process
 - file: sections/salinity_introduction
+- file: sections/salinity_sensors_integration
 - file: sections/salinity_pre_deployment
 - file: sections/salinity_mission_execution
 - file: sections/salinity_rtqc
