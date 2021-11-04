@@ -100,6 +100,7 @@ Note that this work is still on-going, so the procedures are expected to be upda
 Example of the thermal inertia effect on salinity before and after correction (Isabelle Giddy)
 :::
 
+(dmqc-offset-correction)=
 ## Sensor offset and drift correction
 The sensor offset and drift are corrected using comparison CTD casts (see {numref}`sensor-comparison`, {numref}`sensor-correction`).  Temperature and salinity are regressed with a colocated CTD that has a known accuracy. 
 Typically the salinity and temperature profiles are compared directly or in TS space. 
