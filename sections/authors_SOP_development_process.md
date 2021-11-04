@@ -25,7 +25,7 @@
 
 2) [Isabelle Giddy](https://github.com/isgiddy) and [Soeren Thomsen](https://github.com/soerenthomsen) restructured the draft version in early July 2021 and invited more experts to join.
 
-3) Virtual expert meeting on July 22 organized by Isabelle Giddy and Soeren Thomsen to kick start the SOP writing. [Agenda](https://docs.google.com/document/d/1Bzj916qYsY04QVmZdiBztdeCrOJoJm084ORxN6HFVC4/edit)   
+3) Virtual expert meeting on July 22 organized by [Isabelle Giddy](https://github.com/isgiddy) and [Soeren Thomsen](https://github.com/soerenthomsen) to kick start the SOP writing. [Agenda](https://docs.google.com/document/d/1Bzj916qYsY04QVmZdiBztdeCrOJoJm084ORxN6HFVC4/edit)   
 Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabelle Giddy](https://github.com/isgiddy), [Pierre Testor](https://github.com/ptestor), [Nikolaos Zarokanellos](https://github.com/nizaroka), Daniel Wang, [Louis Clement](https://github.com/LouClement), [Clark Richards](https://github.com/richardsc), Donglai Gong, Travis Miles
 
 4) New authors joined: [Anthony Bosse](https://github.com/AnthonyBosse), [Evi Bourma](https://github.com/evibourma), Mathieu Dever, [Gerd Krahmann](https://github.com/gkrahmann), Joe Wang in September / October 2021.
