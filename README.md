@@ -4,7 +4,7 @@
 
 This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Salinity Standard Operating Procedure (SOP).
 
-Read the SOP [here] (add link after deployment mid November). 
+Read the SOP [here](https://oceangliderscommunity.github.io/Salinity_SOP/README.html). 
 
 ## Community review
 The community review is open from November 2021 to February 28 2022.
