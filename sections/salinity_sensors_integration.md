@@ -21,10 +21,10 @@ The sampling speed is set by the user, typically to 2 Hz.
 
 Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
 
-<p align = "center"><img src="../images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b>Figure xx: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Isabelle Giddy)</b>
-</p>
+:::{figure-md} CT-SAIL
+<img src="/images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="400px">
+Figure xx: CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)
+:::
 
 #### Pumped
 The [Glider Payload CTD (GPCTD)](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712) is a modular, self-contained CTD with memory and an integrated pump. 
@@ -34,10 +34,10 @@ Power consumption is 175 mW when continuously recording at 1 Hz.
 
 Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
 
-<p align = "center"><img src="../images/giddy_slocum_CTD.png" alt="SLOCUM_CTD" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b>Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Isabelle Giddy)</b>
-</p>
+:::{figure-md} SLOCUM-CTD
+<img src="/images/giddy_slocum_CTD.png" alt="SLOCUM-CTD" class="bg-primary mb-1" width="400px">
+Figure xx: Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
+:::
 
 A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
 
@@ -66,11 +66,10 @@ Sea-Bird no longer lists the CT-Sail but is manufactured on request by integrato
 The Glider Payload CTD replaces the CT-Sail and was developed for easier integration and improved data output associated with the addition of a pump to control flow past the sensors. 
 The GPCTD is installed between the pressure hull and the fairing in the aft-flooded payload bay. 
 
-
-<p align = "center"><img src="../images/giddy_seaglider_CTSail.png" alt="SEAGLIDER_CTSAIL" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b>Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Isabelle Giddy)</b>
-</p>
+:::{figure-md} SEAGLIDER_CTSAIL
+<img src="/images/giddy_seaglider_CTSail.png" alt="SEAGLIDER_CTSAIL" class="bg-primary mb-1" width="400px">
+Figure xx: Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
+:::
 
 #### Slocum
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
@@ -80,29 +79,24 @@ On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is install
 #### SeaExplorer
 On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (Fig X left), though the RBR*legato*<sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in Fig X. right. 
 
-<p align = "center"><img src="../images/queste_clark_rbr_legato.png" alt="RBR_LEGATO" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b> Figure xx: RBR<i>legato</i><sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))</b>
-</p>
-
+:::{figure-md} RBR_LEGATO_SEAEXPLORER
+<img src="/images/queste_clark_rbr_legato.png" alt="RBR_LEGATO_SEAEXPLORER" class="bg-primary mb-1" width="400px">
+Figure xx: RBR*legato*<sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right)):::
 
 In the case of the Sea-Bird GPCTD, the sensors are integrated on the wet payload part located on the front nose of the SeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.
 
-
-<p align = "center"><img src="../images/evi_GPCTD.png" alt="GPCTD" class="bg-primary mb-1" width="80%"/></p>  
-<p align = "center">
-<b> Figure xx: Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma)</b>
-</p>
+:::{figure-md} GPCTD
+<img src="/images/evi_GPCTD.png" alt="GPCTD" class="bg-primary mb-1" width="400px">
+Figure xx: Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma):::
 
 #### Petrel Glider
 The small-size RBR*legato*<sup>3</sup> CTD is embedded in the front fairing of the Petrel glider. 
 The CT sensors are exposed outside the fairing to sense the ambient seawater. 
 This integration design can minimize the impact of the CTD on the streamline of gliders. 
 
-<p align = "center"><img src="../images/wang_rbrlegato3.png" alt="petrel_rbr" class="bg-primary mb-1" width="50%"/></p>  
-<p align = "center">
-<b> Figure xx: RBR<i>legato</i><sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)</b>
-</p>
+:::{figure-md} RBR_PETREL
+<img src="/images/wang_rbrlegato3.png" alt="RBR_PETREL" class="bg-primary mb-1" width="200px">
+Figure xx: RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)</b>:::
 
 ### Sensor storage
 Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze. 
