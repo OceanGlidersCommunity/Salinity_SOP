@@ -1,6 +1,7 @@
+(intro)=
 # Introduction
 
-This OceanGliders standard operating procedure (SOP) document for salinity aims to guide the user through the current community practices in use for measuring and deriving good quality salinity measurements using gliders. For the derivation of salinity, simultaneous measurements of conductivity, temperature and pressure are required, which are commonly acquired by conductivity-temperature-depth (CTD) sensors. The relative location of the conductivity, thermistor and pressure sensors, offsets in the time-responses of the sensors and the thermal-inertia effect impacts the derived variable, the correction for which is described in section 7.1. 
+This OceanGliders standard operating procedure (SOP) document for salinity aims to guide the user through the current community practices in use for measuring and deriving good quality salinity measurements using gliders. For the derivation of salinity, simultaneous measurements of conductivity, temperature and pressure are required, which are commonly acquired by conductivity-temperature-depth (CTD) sensors. The relative location of the conductivity, thermistor and pressure sensors, offsets in the time-responses of the sensors and the thermal-inertia effect impacts the derived variable, the correction for which is described in [Section 8.1](dmqc). 
 
 The first section describes the available sensors and their integration with gliders. The following sections outline general pre deployment / real time / post deployment and data dissemination protocol recommendations. Finally, the future outlook for salinity measurements by gliders is discussed. 
 
