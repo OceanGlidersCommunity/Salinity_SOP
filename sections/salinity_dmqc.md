@@ -6,17 +6,17 @@ While dynamic errors in conductivity and temperature are usually small relative 
 This is because, in many regions of the ocean salinity does not vary as much as conductivity and temperature. 
 Dynamic errors can, for example, create false density instability in profiles and false variation in mixed layer depths. 
 This is particularly important in beta oceans, where density is set by salinity variations (e.g. in polar regions; Gulf of Oman).
-Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for (Johnson et al. 2007; Woo and Gourcuff, 2021).
+Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`,{cite}`woo_imos_2021`.
 
 Four main sources of error are (i) spatial offsets in sensor location on the profiling platform, (ii) different sensor time-responses of the thermistor, conductivity sensor and pressure sensor, (iii) timestamping of sensor measurements, and (iv) the thermal-inertia effect. 
 
-We suggest applying the thermal mass correction method similar to that proposed by Garau et al. (2011) and developed by Lueck et al (1990) and Morrison et al (1994), to account for the delayed temperature equilibration of the conductivity cell. (see Chapter 5 DMQC). 
+We suggest applying the thermal mass correction method similar to that proposed by {cite}`garau_thermal_2011`, which was  intially developed by {cite}`lueck_thermal_1990` and {cite}`morison_correction_1994`, to account for the delayed temperature equilibration of the conductivity cell. (see Chapter 5 DMQC). 
 The correction depends on the speed with which the water flows through the conductivity cell. 
 For pumped CTDs, the flow through the CT cell is known and constant, thus corrections like Garau et al. (2011) can be simplified to use only constant thermal-inertia corrections, however these corrections are generally worse around the thermocline because: 1) the glider speed may change as a result of stratification; 2) there is a rapid vertical change in temperature and/or salinity. 
 In the case of unpumped CTDs, for increased accuracy, we recommend using the modelled velocity of the glider through the water (based on the flight model) to estimate the flushing speed of the CT cell, which can be used to correct for the temperature offset (reference to Depth Averages Current (DAC) SOP). 
 The flight model can be improved by following pre-deployment and piloting protocols as per the DAC SOP. 
 The amplitude of the error, ɑ, and the time offset constant, 𝜏, are used to correct for thermal mass offset. 
-These parameters can be estimated by minimizing the difference between up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by Morrison et al (2004). 
+These parameters can be estimated by minimizing the difference between up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by {cite}`morison_correction_1994`. 
 One can elect to apply this minimization per dive or over the whole mission. 
 Per dive tends to give cleaner data but can sometimes mask real signals (if regressed in depth, z). 
 Applying the minimization per mission makes the assumption that the shape of the sensor doesn’t change and that the model is representative and so only one set of parameters is needed to represent a whole mission. 
@@ -38,11 +38,11 @@ Interpolate to consistent timestamp between sensors.
 ### Apply correction for conductivity cell thermal inertia
 Initially, the effects of thermal inertia can be visualised as a scatter plot of temperature and salinity, colored by dive phase (whether the glider is performing a dive or a climb). 
 The effectiveness of the correction can then be checked similarly. 
-Often, the correction is not perfect: the remaining error can be reported as a RMSE of the difference between dives and climbs, as in Giddy et al., 2021. 
+Often, the correction is not perfect: the remaining error can be reported as a RMSE of the difference between dives and climbs, as in {cite}`giddy_stirring_2021`. 
 
 :::{figure-md} Example TL-corrected glider transect
 <img src="/images/giddy_TS_correctionL.png" alt="TL_correction" class="bg-primary mb-1" width="400px">
-Figure xx:Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). Figure credit: Isabelle Giddy.:::
+Figure xx:Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). (Figure credit: Isabelle Giddy).:::
 :::
 
 There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
@@ -52,23 +52,23 @@ Basestation processing developed by Charlie Eriksen (unpublished).
 The correction is based on an iterative thermal diffusion scheme through layers in the water column. 
 
 #### Pumped Seabird CT cell mounted on SLOCUM gliders 
-GEOMAR implements the Garau et al. (2011) method with updated coefficients. 
+GEOMAR implements the {cite}`garau_thermal_2011` method with updated coefficients. 
 
 #### Pumped and unpumped Seabird CT cell
 
 ##### SOCIB
-SOCIB implements the Garau et al (2011) method. 
+SOCIB implements the {cite}`garau_thermal_2011` method. 
 
 ##### UEA Glider Toolbox
-UEA glider toolbox implements Garau et al (2011), using GEOMAR / Gerd Krahmann polynomials and an empirical regression of alpha and tau absolutes and offsets.
+UEA glider toolbox implements {cite}`garau_thermal_2011`, using GEOMAR / Gerd Krahmann polynomials and an empirical regression of alpha and tau absolutes and offsets.
 
 ##### Integrated Marine Observing System (IMOS)
-Woo and Gourcuff (2021) provide recommendations for the correction of thermal-intertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of Lueck  and  Picklo  (1990),  generalised  by  Morison  et  al.  (1994) is implemented. In the case of unpumped CTDs, the method developed by Morison et al (1994) is recommended over the more recent method by Garau et al (2011), which modified Morison et al (1994) to take into account variable flow speeds as a result of an unpumped CTD. Testing by Woo and Gourcuff (2021) found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
+{cite}`woo_imos_2021` provide recommendations for the correction of thermal-intertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of {cite}`lueck_thermal_1990`,  generalised  by {cite}`morison_correction_1994` is implemented. In the case of unpumped CTDs, the method developed by {cite}`morison_correction_1994` is recommended over the more recent method by {cite}`garau_thermal_2011`, which modified {cite}`morison_correction_1994` to take into account variable flow speeds as a result of an unpumped CTD. Testing by {cite}`woo_imos_2021` found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
 
 ##### New method by Daniel Wang, Donglai Gong and Travis Miles (to be published)
 An improved methodology is proposed by Daniel Wang, Donglai Gong and Travis Miles to correct the thermal lag error in pumped glider CTDs with a specific focus on glider data from the MAB and other highly stratified oceans. 
 The method has been tested and validated on Slocum gliders with pumped Seabird CTDs. 
-An updated thermal lag correction algorithm was developed based on Garau et al. (2011) and it introduces a new cost function for calculating the pairwise thermal lag correction coefficients in highly stratified oceans. 
+An updated thermal lag correction algorithm was developed based on {cite}`garau_thermal_2011` and it introduces a new cost function for calculating the pairwise thermal lag correction coefficients in highly stratified oceans. 
 The algorithm also takes the vertical variability of the thermocline into account for more robust corrections in the presence of internal waves. 
 Specifically, the parameters within the cost functions are normalized and depth is zero-referenced to the thermocline depth. 
 Based on the observed temperature gradient at the thermocline, the algorithm then decides whether to use the normalized T-S or S-Z relation for the cost function. 
@@ -94,7 +94,7 @@ If no correction is made, this can also be reported.
 
 ## 2nd quality control, inter-comparsion
 While thermal lag correction improves spikes and the dissymmetry between adjacent profiles, remaining outliers/spikes can be corrected for (depending on the use case) using rolling medians, depth-bins and the removal of outliers (e.g. some methods in GliderTools). 
-The application of a median filter as proposed by Liu et al (2015) can further improve the salinity error correction in regions of strong thermoclines with temperature changes above ~2<sup>o</sup>C within 3 m.  
+The application of a median filter as proposed by {cite}`liu_glider_2015` can further improve the salinity error correction in regions of strong thermoclines with temperature changes above ~2<sup>o</sup>C within 3 m.  
 Sensor drift corrections to shipboard CTD casts and/or other gliders should be reported (see GROOM-FP7 D5.3). 
 
 
