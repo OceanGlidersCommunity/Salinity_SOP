@@ -1,5 +1,5 @@
 (pre-deploy)=
-# Pre and post deployment protocol
+# Pre deployment protocol
 
 (sensor-calib)=
 ## Sensor Calibration
@@ -12,8 +12,6 @@ Users should note that conductive cells (mostly unpumped, but the pumped ones as
 (antifoul)=
 ## Antifouling
 Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. Biofouling that can affect salinity through 1) blocking the CT valve (see {numref}`pump-malfunction` ) and 2) depending on how the flight model is implemented, impacting the flight model, which estimates the glider’s speed assuming a steady flight in still water. This glider’s speed is then used to correct the thermal-inertia effects of unpumped CT instruments (see {numref}`dynamic-error-correction`. Biofouling will tend to increase the drag coefficients and decrease the lift coefficients of the flight model. A time-dependent/ incremental flight model can handle these effects. In the correction proposed by {cite}`bennett_determining_2019`, the coefficients of every profile are calculated and can correct the effects of the biofouling on the fli model. In GEOMAR / Gerd Krahmann implementation, if there is a 5% increase in the drag coefficient over the deployment, then it is treated as time dependent and the optimization of the flight parameters is handled accordingly.
-
-Note that post recovery photos are essential for biofouling assessment.
 
 Pre-mission, if one expects biofouling on the glider platform (e.g. in regions of very high productivity), one can put zinc-oxide cream over the seams of the glider so that there are fewer locations with tiny turbulence where larvae have time to attach. During post mission procedures, in order to eliminate biofouling effects for the next mission and clean the GPCTD, it is suggested to be thoroughly rinsed in (with a special water dispenser) and out (with a water jet) with fresh water. Then, the antifouling solution can be inserted with a special dispenser (e.g. syringe) into the plumbing of the sensor.
 
@@ -29,6 +27,4 @@ Biofouling example from a long deployment in the Subtropical Zone in the Souther
 Biofouling on the GPCTD intake after 36 days in the Aegean Sea (Image credit: Evi Bourma).
 :::
 
-(oceanobs)=
-## Integration with OceanObs
-Reporting that the mission is over. support@oceanobs.org
+
