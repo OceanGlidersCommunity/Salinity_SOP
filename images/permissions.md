@@ -3,14 +3,14 @@
 Example: 
 - `filename` - First Name Last Name 
 
-- `anthony_pump_blockage.png` - Anthony Bosse 
 - `EUROSEA.png` - EuroSea
 - `Evi-HCMR_glider_1.jpg` - Evi Bourma
 - `Evi-HCMR_glider_2.jpg` - Evi Bourma
 - `Evi-HCMR_glider_3.jpg` - Evi Bourma
-- `evi_GPCTD.png` - Evi Bourma
 - `GROOM2_logo.png` - GROOM2
+- `anthony_pump_blockage.png` - Anthony Bosse 
 - `case_01_issue.png` - Soeren Thomsen
+- `evi_GPCTD.png` - Evi Bourma
 - `general_comment_step_01.png` - Soeren Thomsen
 - `general_comment_step_02.png` - Soeren Thomsen
 - `general_comment_step_03.png` - Soeren Thomsen
