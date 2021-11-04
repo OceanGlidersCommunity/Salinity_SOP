@@ -8,6 +8,7 @@ Example:
 - `Evi-HCMR_glider_1.jpg` - Evi Bourma
 - `Evi-HCMR_glider_2.jpg` - Evi Bourma
 - `Evi-HCMR_glider_3.jpg` - Evi Bourma
+- `evi_GPCTD.png` - Evi Bourma
 - `GROOM2_logo.png` - GROOM2
 - `case_01_issue.png` - Soeren Thomsen
 - `general_comment_step_01.png` - Soeren Thomsen
