@@ -6,7 +6,7 @@ sections:
 - file: sections/authors_SOP_development_process
 - file: sections/salinity_introduction
 - file: sections/salinity_sensors_integration
-- file: sections/salinity_pre_post_deployment
+- file: sections/salinity_pre_deployment
 - file: sections/salinity_mission_execution
 - file: sections/salinity_rtqc
 - file: sections/salinity_post_recovery

@@ -1,5 +1,11 @@
 # Post-recovery operations and calibrations
 
-At first users should report that their mission is over to support(at)oceanobs.org
+(oceanobs)=
+## Integration with OceanObs
+At first, user should report that their mission is over. support@oceanobs.org
 
-- align with oxygen SOP and just refer to operations before deployment, biofouling assessment etc
+## Biofouling
+Post recovery photos are essential for biofouling assessment {numref}`antifoul`.
+
+### Sensor storage
+Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze. 
