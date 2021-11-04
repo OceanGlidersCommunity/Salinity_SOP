@@ -6,13 +6,13 @@ While dynamic errors in conductivity and temperature are usually small relative 
 This is because, in many regions of the ocean salinity does not vary as much as conductivity and temperature. 
 Dynamic errors can, for example, create false density instability in profiles and false variation in mixed layer depths. 
 This is particularly important in beta oceans, where density is set by salinity variations (e.g. in polar regions; Gulf of Oman).
-Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`,{cite}`woo_delayed_2021`.
+Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see section 2), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`, {cite}`woo_delayed_2021`.
 
 Four main sources of error are (i) spatial offsets in sensor location on the profiling platform, (ii) different sensor time-responses of the thermistor, conductivity sensor and pressure sensor, (iii) timestamping of sensor measurements, and (iv) the thermal-inertia effect. 
 
 We suggest applying the thermal mass correction method similar to that proposed by {cite}`garau_thermal_2011`, which was  intially developed by {cite}`lueck_thermal_1990` and {cite}`morison_correction_1994`, to account for the delayed temperature equilibration of the conductivity cell. (see Chapter 5 DMQC). 
 The correction depends on the speed with which the water flows through the conductivity cell. 
-For pumped CTDs, the flow through the CT cell is known and constant, thus corrections like Garau et al. (2011) can be simplified to use only constant thermal-inertia corrections, however these corrections are generally worse around the thermocline because: 1) the glider speed may change as a result of stratification; 2) there is a rapid vertical change in temperature and/or salinity. 
+For pumped CTDs, the flow through the CT cell is known and constant, thus corrections like {cite}`garau_thermal_2011` can be simplified to use only constant thermal-inertia corrections, however these corrections are generally worse around the thermocline because: 1) the glider speed may change as a result of stratification; 2) there is a rapid vertical change in temperature and/or salinity. 
 In the case of unpumped CTDs, for increased accuracy, we recommend using the modelled velocity of the glider through the water (based on the flight model) to estimate the flushing speed of the CT cell, which can be used to correct for the temperature offset (reference to Depth Averages Current (DAC) SOP). 
 The flight model can be improved by following pre-deployment and piloting protocols as per the DAC SOP. 
 The amplitude of the error, ɑ, and the time offset constant, 𝜏, are used to correct for thermal mass offset. 
