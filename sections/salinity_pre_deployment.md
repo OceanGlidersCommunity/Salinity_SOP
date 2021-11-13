@@ -3,9 +3,12 @@
 
 (sensor-calib)=
 ## Sensor Calibration
-Most users send their CT-sensors to manufacturers to get high quality/high precision calibrations. Few organizations have the ability to do in-lab conductivity and temperature calibrations, especially for the unpumped CTD found on Seagliders because of how it is directly integrated into the glider fairing (see {numref}`unpumped`).
+Most users send their CT-sensors to manufacturers to get high quality/high precision calibrations. 
+Few organizations have the ability to do in-lab conductivity and temperature calibrations, especially for the unpumped CTD found on Seagliders because of its direct integration into the glider fairing (see {numref}`unpumped`).
 
-In the case of RBR*legato*<sup>3</sup>, because it is inductive, only field calibration or by relying on Alseamar/SeaExplorer’s coefficients to correct for the influence of the vehicle on the sensor’s inductive field is possible. Accuracy of that coefficient is unproven. Recommended strategy is deep CTD in proximity. This is problematic in shallow dynamic shelf sea waters. Nevertheless, correction is simple: a scaling factor is applied to conductivity.
+For the RBR*legato*<sup>3</sup> sensor with an inductive cell, the calibrations can only be done in the field or by using the SeaExplorer’s coefficients that correct the influence of the vehicle on the sensor’s inductive field. 
+The accuracy of these coefficients is unproven. 
+The recommended strategy is to sample deep CTD in proximity, which becomes problematic in shallow dynamic shelf sea waters. Nevertheless, correction is simple: a scaling factor is applied to conductivity.
 
 Users should note that conductive cells (mostly unpumped, but the pumped ones as well to an extent) change conductivity calibration (again just a scaling factor) when they take a hit, because it can change the shape/volume of the conductivity cell. There is increased risk for this to occur during deployments by crane from large vessels.
 
