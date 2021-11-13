@@ -32,7 +32,12 @@ The corrections we propose are therefore:
 ### Spatial alignment correction
 Apply offset to account for the spatial offset in sensor location on the platform, if needed.
 
-When the conductivity cell and thermistor are not colocated on the instrument, they measure the same water parcel but at different times. Similarly, the pressure sensor measurements for that water parcel will not occur at the same time. The time difference depends on the flow speed and distance between the sensors. If there is a variable profiling rate, the time difference will not be constant and the correction relies on the flight model. Pumped CTDs reduce the complexity of the correction by pumping water past the conductivity cell and thermistor at a known rate. The unpumped RBR*legato*<sup>3</sup> reduces the error associated with the sensor misalignment by moving the thermistor from the float end cap to the mast of the conductivity cell. 
+When the conductivity cell and thermistor are not colocated on the instrument, they measure the same water parcel but at different times. 
+Similarly, the pressure sensor measurements for that water parcel will not occur at the same time. 
+The time difference depends on the flow speed and distance between the sensors. 
+If there is a variable profiling rate, the time difference will not be constant and the correction relies on the flight model. 
+Pumped CTDs reduce the complexity of the correction by pumping water past the conductivity cell and thermistor at a known rate. 
+The unpumped RBR*legato*<sup>3</sup> reduces the error associated with the sensor misalignment by moving the thermistor from the float end cap to the mast of the conductivity cell. 
 
 (interp_timestamps)=
 ### Interpolate to consistent timestamps
