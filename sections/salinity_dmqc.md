@@ -10,7 +10,7 @@ Dynamic errors can, for example, create false density instability in profiles an
 This is particularly important in beta oceans, where density is set by salinity variations (e.g. in polar regions; Gulf of Oman).
 Both pumped, unpumped, electrode-based and inductive CTDs that measure conductivity and temperature (see {numref}`sensors-integration`), are prone to dynamic errors that can be greater than the instrument calibration accuracy and therefore need to be corrected for {cite}`johnson_sensor_2007`, {cite}`woo_delayed_2021`.
 
-Four main sources of error are [(i)](spatial-alignment) spatial offsets in sensor location on the profiling platform, [(ii)](temporal-alignment) different sensor time-responses of the thermistor, conductivity sensor and pressure sensor, [(iii)](interp_timestamps) timestamping of sensor measurements, and [(iv)](TL-correction) the thermal-inertia effect. 
+Four main sources of error are [(i)](spatial-alignment) spatial offsets in sensor location on the profiling platform, [(ii)](interp_timestamps) timestamping of sensor measurements, [(iii)](Tl-correction-temperature) the themister thermal-inertia effect and [(iv)](TL-correction) the conductivity cell thermal-inertia effect. 
 
 We suggest applying the thermal mass correction method similar to that proposed by {cite}`garau_thermal_2011`, which was  intially developed by {cite}`lueck_thermal_1990` and {cite}`morison_correction_1994`, to account for the delayed temperature equilibration of the conductivity cell. (see Chapter 5 DMQC). 
 The correction depends on the speed with which the water flows through the conductivity cell. 
@@ -32,16 +32,24 @@ The corrections we propose are therefore:
 ### Spatial alignment correction
 Apply offset to account for the spatial offset in sensor location on the platform, if needed.
 
-(temporal-alignment)=
-### Temporal alignment
-Align temperature, conductivity and pressure sensors in time.
+When the conductivity cell and thermistor are not colocated on the instrument, they measure the same water parcel but at different times. Similarly, the pressure sensor measurements for that water parcel will not occur at the same time. The time difference depends on the flow speed and distance between the sensors. If there is a variable profiling rate, the time difference will not be constant and the correction relies on the flight model. Pumped CTDs reduce the complexity of the correction by pumping water past the conductivity cell and thermistor at a known rate. The unpumped RBR*legato*<sup>3</sup> reduces the error associated with the sensor misalignment by moving the thermistor from the float end cap to the mast of the conductivity cell. 
 
 (interp_timestamps)=
 ### Interpolate to consistent timestamps
-Interpolate to consistent timestamp between sensors.
+Interpolate to consistent timestamps between thermistor, conductivity cell and pressure sensors. 
+
+**Correction for thermal inertia**
+Thermistors and conductivity cells have finite, but different, response times and are addressed separately. 
+
+(TL-correction-temperature)=
+### Apply correction for thermistor thermal inertia
+Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. If a sensor has a long response time
+relative to the time scale for temperature changes, then the measured temperature will both lag the true signal, and have a reduced high-frequency amplitude. The error manifests itself as spikes in salinity and density especially when crossing interfaces with a sharp change in temperature with depth. The simplest correction it to shift temperature in time to ensure that the conductivity and temperature readings were taken simultaneously. 
 
 (TL-correction)=
 ### Apply correction for conductivity cell thermal inertia
+Because conductivity is a function of both temperature and salinity, when the conductivity cell exchanges heat with the water it samples, errors can occur which manifest themselves as spikes in salinity or density when the instrument enters a mixed layer from stratified waters.
+
 Initially, the effects of thermal inertia can be visualised as a scatter plot of temperature and salinity, colored by dive phase (whether the glider is performing a dive or a climb). 
 The effectiveness of the correction can then be checked similarly. 
 Often, the correction is not perfect: the remaining error can be reported as a RMSE of the difference between dives and climbs, as in {cite}`giddy_stirring_2021`. 
@@ -76,7 +84,7 @@ UEA glider toolbox implements {cite}`garau_thermal_2011`, using GEOMAR / Gerd Kr
 
 (method6)=
 ##### Integrated Marine Observing System (IMOS)
-{cite}`woo_delayed_2021` provide recommendations for the correction of thermal-intertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of {cite}`lueck_thermal_1990`,  generalised  by {cite}`morison_correction_1994` is implemented. In the case of unpumped CTDs, the method developed by {cite}`morison_correction_1994` is recommended over the more recent method by {cite}`garau_thermal_2011`, which modified {cite}`morison_correction_1994` to take into account variable flow speeds as a result of an unpumped CTD. Testing by {cite}`woo_delayed_2021` found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
+{cite}`woo_delayed_2021` provide recommendations for the correction of thermal-inertia to both pumped and unpumped Seabird CT cells, following alignment of temperature measurements to the conductivity cell. In the case of pumped CTDs, the flow through the cell is constant and the method of {cite}`lueck_thermal_1990`,  generalised  by {cite}`morison_correction_1994` is implemented. In the case of unpumped CTDs, the method developed by {cite}`morison_correction_1994` is recommended over the more recent method by {cite}`garau_thermal_2011`, which modified {cite}`morison_correction_1994` to take into account variable flow speeds as a result of an unpumped CTD. Testing by {cite}`woo_delayed_2021` found that the improvement in the correction algorithm did not improve the results and is computationally inefficient.   
 
 (method7)=
 ##### New method by Daniel Wang, Donglai Gong and Travis Miles (to be published)
