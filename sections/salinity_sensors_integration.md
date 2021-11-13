@@ -61,7 +61,7 @@ As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (s
 The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C. 
 
 (integration)=
-## Sensor integratons with gliders
+## Sensor integrations with gliders
 
 (mounting-location)=
 ### Mounting location
