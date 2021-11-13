@@ -16,7 +16,7 @@ Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electr
 
 (unpumped)=
 #### Unpumped
-The CT-Sail is a free-flushed (unpumped) CTD (SBE41) was the first science payload installed in the Seaglider {cite}`janzen_physical_2011` and remains widely in use. 
+The CT-Sail, a free-flushed (unpumped) CTD (SBE41), was the first science payload installed in the Seaglider {cite}`janzen_physical_2011` and remains widely in use. 
 The separate temperature and conductivity sensors are installed on the upper side of the glider pressure hull and integrated with the internal glider data acquisition and flight control system. 
 On the CT-Sail the temperature sensor is positioned beneath and parallel to the conductivity sensor. 
 The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
@@ -61,7 +61,7 @@ As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (s
 The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C. 
 
 (integration)=
-## Sensor integratons with gliders
+## Sensor integrations with gliders
 
 (mounting-location)=
 ### Mounting location
