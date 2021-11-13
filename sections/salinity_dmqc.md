@@ -121,7 +121,7 @@ The sensor correction should be quoted together with details on the comparison c
 If no correction is made, this can also be reported. 
 
 (2nd-qc)=
-## 2nd quality control, inter-comparsion
+## 2nd quality control, inter-comparison
 While thermal lag correction improves spikes and the dissymmetry between adjacent profiles, remaining outliers/spikes can be corrected for (depending on the use case) using rolling medians, depth-bins and the removal of outliers (e.g. some methods in GliderTools {cite}`gregor_glidertools_2019`). 
 The application of a median filter as proposed by {cite}`liu_glider_2015` can further improve the salinity error correction in regions of strong thermoclines with temperature changes above ~2<sup>o</sup>C within 3 m.  
 Sensor drift corrections to shipboard CTD casts and/or other gliders should be reported (see GROOM-FP7 D5.3). 
