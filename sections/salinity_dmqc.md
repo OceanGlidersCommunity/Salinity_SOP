@@ -60,7 +60,7 @@ Basestation processing developed by Charlie Eriksen (unpublished).
 The correction is based on an iterative thermal diffusion scheme through layers in the water column. 
 
 (method2)=
-#### Pumped Seabird CT cell mounted on SLOCUM gliders 
+#### Pumped Seabird CT cell mounted on Slocum gliders 
 GEOMAR implements the {cite}`garau_thermal_2011` method with updated coefficients. 
 
 (method3)=
