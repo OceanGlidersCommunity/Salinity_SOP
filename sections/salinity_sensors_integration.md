@@ -21,7 +21,7 @@ The separate temperature and conductivity sensors are installed on the upper sid
 On the CT-Sail the temperature sensor is positioned beneath and parallel to the conductivity sensor. 
 The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
 Power consumption is 21 mW while profiling. 
-The sampling speed is set by the user, typically to 2 Hz.  
+The sampling speed is set by the user, typically every 2-4 seconds (0.25-0.5 Hz).  
 
 Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
 
@@ -36,7 +36,7 @@ CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Fig
 The [Glider Payload CTD (GPCTD)](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712) is a modular, self-contained CTD with memory and an integrated pump. 
 The GPCTD improves on the CT-Sail through simpler installation requirements as well as a pump which allows for constant flow through the conductivity sensor. 
 The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow {cite}`janzen_physical_2011`. 
-Power consumption is 175 mW when continuously recording at 1 Hz. 
+Power consumption is 175 mW when continuously recording at 1 Hz, but typically set to sample every 2-4 seconds (0.25-0.5 Hz). 
 
 Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
 
