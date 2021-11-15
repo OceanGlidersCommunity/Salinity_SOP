@@ -127,7 +127,7 @@ RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup>
 ### Sensor sampling rates
 While each sensor has a range of sampling rates that can be set, the real limitation is set by the processing system associated with the platform.
 
-Sensors integrated on [Seagliders](seagliders) are limited to once every 5 seconds (0.2 Hz), unless the seaglider is installed with a scicon board (discontinued). 
+Sensors integrated on [Seagliders](seaglider) are limited to once every 5 seconds (0.2 Hz), unless the seaglider is installed with a scicon board (discontinued). 
 
 [SeaExplorers](seaexplorer) have a dedicated ARM processor and can handle up to 16Hz. 
 
