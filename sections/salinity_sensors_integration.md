@@ -16,13 +16,13 @@ Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electr
 
 (unpumped)=
 #### Unpumped
-The CT-Sail is a free-flushed (unpumped) CTD (SBE41) was the first science payload installed in the Seaglider {cite}`janzen_physical_2011` and remains widely in use. 
+The CT-Sail, a free-flushed (unpumped) CTD (SBE41), was the first science payload installed in the Seaglider {cite}`janzen_physical_2011` and remains widely in use. 
 The separate temperature and conductivity sensors are installed on the upper side of the glider pressure hull and integrated with the internal glider data acquisition and flight control system. 
 On the CT-Sail the temperature sensor is positioned beneath and parallel to the conductivity sensor. 
 The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
 Power consumption is 21 mW while profiling. 
 
-Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
+Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
 
 :::{figure-md} CT-SAIL
 <img src="/images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="400px">
@@ -37,7 +37,7 @@ The GPCTD improves on the CT-Sail through simpler installation requirements as w
 The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow {cite}`janzen_physical_2011`. 
 Power consumption is 175 mW when continuously recording at 1 Hz.
 
-Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
+Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
 
 :::{figure-md} SLOCUM-CTD
 <img src="/images/giddy_slocum_CTD.png" alt="SLOCUM-CTD" class="bg-primary mb-1" width="400px">
@@ -60,7 +60,7 @@ As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (s
 The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C. 
 
 (integration)=
-## Sensor integratons with gliders
+## Sensor integrations with gliders
 
 (mounting-location)=
 ### Mounting location
