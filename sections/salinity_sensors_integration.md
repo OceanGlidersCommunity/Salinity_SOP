@@ -21,7 +21,6 @@ The separate temperature and conductivity sensors are installed on the upper sid
 On the CT-Sail the temperature sensor is positioned beneath and parallel to the conductivity sensor. 
 The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
 Power consumption is 21 mW while profiling. 
-The sampling speed is set by the user, typically every 2-4 seconds (0.25-0.5 Hz).  
 
 Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
 
@@ -36,7 +35,7 @@ CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Fig
 The [Glider Payload CTD (GPCTD)](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712) is a modular, self-contained CTD with memory and an integrated pump. 
 The GPCTD improves on the CT-Sail through simpler installation requirements as well as a pump which allows for constant flow through the conductivity sensor. 
 The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow {cite}`janzen_physical_2011`. 
-Power consumption is 175 mW when continuously recording at 1 Hz, but typically set to sample every 2-4 seconds (0.25-0.5 Hz). 
+Power consumption is 175 mW when continuously recording at 1 Hz.
 
 Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-3</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
 
@@ -46,7 +45,7 @@ Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3
 Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)
 :::
 
-A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 1/2 Hz.
+A variation of the GPCTD, the [Slocum Glider CTD](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&callback=qs) has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 0.5 Hz.
 
 (rbr-legato)=
 ### RBR*legato*<sup>3</sup>
@@ -123,6 +122,17 @@ This integration design can minimize the impact of the CTD on the streamline of 
 
 RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)
 :::
+
+(sensor-sampling)=
+### Sensor sampling rates
+While each sensor has a range of sampling rates that can be set, the real limitation is set by the processing system associated with the platform.
+
+Sensors integrated on [Seagliders](seagliders) are limited to once every 5 seconds (0.2 Hz), unless the seaglider is installed with a scicon board (discontinued). 
+
+[SeaExplorers](seaexplorer) have a dedicated ARM processor and can handle up to 16Hz. 
+
+Older [Slocums](slocum) with a persistor typically sample once every 4 seconds (0.25 Hz). This can be changed to once every 2 seconds (0.5 Hz) when the science persistor has 'free' time, meaning when you do not have too many other sensors.
+Recent models (eg. G3) can handle faster sampling rates.  
 
 (sensor-storage)=
 ### Sensor storage
