@@ -16,8 +16,15 @@ If sensor caps are required, these should be removed before the glider enters th
  Deployment of Seaglider using a winch (S.A Agulhas II)
 :::
 
+Gliders' recovery is usually performed by a small boat, while the manufacturer' s guidelines should be followed during the procedure.
+
+:::{figure-md} glider recovery
+<img src="../images/" alt="Glider recovery" class="bg-primary mb-1" width="600px">
+
+ Recovery of the glider from a small boat (credit Evi Bourma)
+
 (sensor-comparison)=
-## Colocated CTD profiles for post-mission sensor correction
+### Colocated CTD profiles for post-mission sensor correction
 On deployment and recovery of the glider, an in situ comparison-CTD cast should be completed. 
 On a ship, the CTD rosette is often accompanied by salinometry that is used to calibrate the ship CTD (ref). 
 If the glider is deployed from a small boat, a smaller hand deployable CTD can be used.
@@ -31,7 +38,7 @@ In this section specific piloting requirements during the mission execution are 
 
 (flight-model)=
 ### Flight model calibration dives
-Upon deployment it is important to perform a number of calibration dives (follow steps outlined Depth Averaged Currents (DAC) SOP to constrain the flight model).
+Upon deployment it is important to perform a number of calibration dives (follow steps outlined Depth Averaged Currents (DAC) SOP to constrain the flight model) in order to be used for the correction of salinity in the field (4.1).
 
 (sensor-correction)=
 ### Data to correct for sensor drift and offset
