@@ -22,7 +22,7 @@ On deployment and recovery of the glider, an in situ comparison-CTD cast should 
 On a ship, the CTD rosette is often accompanied by salinometry that is used to calibrate the ship CTD (ref). 
 If the glider is deployed from a small boat, a smaller hand deployable CTD can be used.
 In the case that a CTD cast cannot be completed at the same time as deployment/recovery, the characteristics of deep water masses (below the thermocline and depending on the region of deployment) can be compared with high quality reference CTD profiles (shipborne CTD, mooring data or delayed-mode Argo float data). 
-Those reference data should be found in the same regional basin with respect to the local circulation pattern. 
+Those reference data should preferentially sample the same regional basin and be affected by the same local circulation pattern.
 Ideally, offshore deep profiles sampling water mass with low variability in their properties should be used.
 
 (piloting)=
