@@ -43,16 +43,16 @@ The unpumped RBR*legato*<sup>3</sup> reduces the error associated with the senso
 ### Interpolate to consistent timestamps
 Interpolate to consistent timestamps between thermistor, conductivity cell and pressure sensors. 
 
-**Correction for thermal inertia**
+### Correction for thermal inertia
 Thermistors and conductivity cells have finite, but different, response times and are addressed separately. 
 
 (TL-correction-temperature)=
-### Apply correction for thermistor thermal inertia
+#### Apply correction for thermistor thermal inertia
 Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. If a sensor has a long response time
 relative to the time scale for temperature changes, then the measured temperature will both lag the true signal, and have a reduced high-frequency amplitude. The error manifests itself as spikes in salinity and density especially when crossing interfaces with a sharp change in temperature with depth. The simplest correction it to shift temperature in time to ensure that the conductivity and temperature readings were taken simultaneously. 
 
 (TL-correction)=
-### Apply correction for conductivity cell thermal inertia
+#### Apply correction for conductivity cell thermal inertia
 Because conductivity is a function of both temperature and salinity, when the conductivity cell exchanges heat with the water it samples, errors can occur which manifest themselves as spikes in salinity or density when the instrument enters a mixed layer from stratified waters.
 
 Initially, the effects of thermal inertia can be visualised as a scatter plot of temperature and salinity, colored by dive phase (whether the glider is performing a dive or a climb). 
@@ -68,16 +68,16 @@ Assessment of thermal inertia effects and its correction for one consecutive div
 There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
 
 (method1)=
-#### Unpumped Seabird CT cell on seagliders
+##### Unpumped Seabird CT cell on seagliders
 Basestation processing developed by Charlie Eriksen (unpublished). 
 The correction is based on an iterative thermal diffusion scheme through layers in the water column. 
 
 (method2)=
-#### Pumped Seabird CT cell mounted on Slocum gliders 
+##### Pumped Seabird CT cell mounted on Slocum gliders 
 GEOMAR implements the {cite}`garau_thermal_2011` method with updated coefficients. 
 
 (method3)=
-#### Pumped and unpumped Seabird CT cell
+##### Pumped and unpumped Seabird CT cell
 
 (method4)=
 ##### SOCIB
@@ -103,7 +103,7 @@ The improved method was able to eliminate most of the mismatches of salinity and
 Salinity spikes up to 0.5 and density inversions up to 0.2 kg m<sup>-3</sup> the vertical profiles were successfully corrected.
 
 (method8)=
-#### RBR*legato*<sup>3</sup>
+##### RBR*legato*<sup>3</sup>
 Recommended procedures by RBR themselves using internal and external temperature of the logger as detailed in their “Data processing and dynamic corrections for the RBR*legato*<sup>3</sup> CTD” report. 
 Note that this work is still on-going, so the procedures are expected to be updated in the near future.
 
