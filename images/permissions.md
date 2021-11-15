@@ -11,6 +11,7 @@ Example:
 - `anthony_pump_blockage.png` - Anthony Bosse 
 - `case_01_issue.png` - Soeren Thomsen
 - `evi_GPCTD.png` - Evi Bourma
+- `evi-glider-recovery.png` - Evi Bourma
 - `general_comment_step_01.png` - Soeren Thomsen
 - `general_comment_step_02.png` - Soeren Thomsen
 - `general_comment_step_03.png` - Soeren Thomsen
@@ -39,3 +40,4 @@ Example:
 - `giddy-slocum-gpctd` - Isabelle Giddy
 - `queste_rbr_legato.png` - Bastien Queste
 - `wang_RBR Integration.jpg` - Joe Wang 
+
