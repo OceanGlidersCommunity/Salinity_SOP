@@ -16,7 +16,7 @@ If sensor caps are required, these should be removed before the glider enters th
  Deployment of Seaglider using a winch (S.A Agulhas II). (Figure credit: Isabelle Giddy)
 :::
 
-Gliders' recovery is often performed by a small boat, while the manufacturer' s guidelines should be followed during the procedure.
+Gliders' recovery is often performed by a small boat, while the manufacturer's guidelines should be followed during the procedure.
 
 :::{figure-md} glider-recovery
 <img src="../images/evi-glider-recovery.png" alt="Glider recovery" class="bg-primary mb-1" width="600px">
