@@ -22,7 +22,7 @@ On the CT-Sail the temperature sensor is positioned beneath and parallel to the 
 The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors. 
 Power consumption is 21 mW while profiling. 
 
-Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S <sup>-m</sup> over a range of 0 to 7 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
+Sea-Bird provided [CTD SBE41-sensor](https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875) accuracy ratings: Conductivity: ± 0.0003 S m<sup>-1</sup> over a range of 0 to 7 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.
 
 :::{figure-md} CT-SAIL
 <img src="/images/giddy_CT_sail.png" alt="CT-SAIL" class="bg-primary mb-1" width="400px">
@@ -37,7 +37,7 @@ The GPCTD improves on the CT-Sail through simpler installation requirements as w
 The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow {cite}`janzen_physical_2011`. 
 Power consumption is 175 mW when continuously recording at 1 Hz.
 
-Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-3</sup> over a range of 0 to 9 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
+Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-1</sup> over a range of 0 to 9 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m. 
 
 :::{figure-md} SLOCUM-CTD
 <img src="/images/giddy_slocum_CTD.png" alt="SLOCUM-CTD" class="bg-primary mb-1" width="400px">
