@@ -30,7 +30,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 4) New authors joined: [Anthony Bosse](https://github.com/AnthonyBosse), [Evi Bourma](https://github.com/evibourma), Mathieu Dever, [Gerd Krahmann](https://github.com/gkrahmann), Joe Wang in September / October 2021.
 
-5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. 
+5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma) and [Louis Clement](https://github.com/LouClement) supported the preparation of the community review.
 
 ## Contributions 
 
