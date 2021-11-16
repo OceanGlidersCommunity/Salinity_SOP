@@ -1,27 +1,25 @@
 # Required Metadata, Real Time Data Processing & Quality Control
 
-This chapter has to be co-developed with the OceanGlidesr Data Management Task Team, the Data Assembly Centers (DACs) and Gui's (@castelao) RTQC group or links provided to existing documents etc (to be discussed).
+This chapter has to be co-developed with the OceanGliders Data Management Task Team, the Data Assembly Centers (DACs) and RTQC Best Practice group to ensure to build on their work.
 
 ## Required Metadata and Real Time Data Processing
-- link to Metadata requirements of the OG Format
-- send OceanGliders metadata and set up real time data flow
-- coefficients from pre-deployment calibration (section XXX) should be applied as soon as possible to ensure best available data is send to real-time data centers
-
+- XXX
+- 
 ## Real Time quality control (RTQC)
 
-XXXX
+- XXX
 
 ### Global range check
 
-XXX
+- XXX
 
 ### Outlier and spike check
 
-XXX
+- XXX
 
 ### Stuck value test
 
-XXX
+- XXX
 
 (pump-malfunction)=
 ### Pump malfunction
