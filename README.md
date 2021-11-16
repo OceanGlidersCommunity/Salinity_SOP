@@ -2,7 +2,7 @@
 
 # OceanGliders Salinity SOP
 
-This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Salinity Standard Operating Procedure (SOP).
+This [GitHub repository](https://github.com/OceanGlidersCommunity/Salinity_SOP) is for the [OceanGliders](https://www.oceangliders.org) Salinity Standard Operating Procedure (SOP).
 
 Read the SOP [here](https://oceangliderscommunity.github.io/Salinity_SOP/README.html). 
 
