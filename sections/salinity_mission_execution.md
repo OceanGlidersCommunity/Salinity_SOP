@@ -22,6 +22,7 @@ Gliders' recovery is often performed by a small boat, while the manufacturer's g
 <img src="../images/evi-glider-recovery.png" alt="Glider recovery" class="bg-primary mb-1" width="600px">
 
 Recovery of the glider from a small boat. (Figure credit: Evi Bourma)
+:::
 
 (sensor-comparison)=
 ### Colocated CTD profiles for post-mission sensor correction
