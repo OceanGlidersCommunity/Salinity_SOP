@@ -4,21 +4,17 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 
 ## Required Metadata and Real Time Data Processing
 - XXX
-- 
-## Real Time quality control (RTQC)
 
+## Real Time quality control (RTQC)
 - XXX
 
 ### Global range check
-
 - XXX
 
 ### Outlier and spike check
-
 - XXX
 
 ### Stuck value test
-
 - XXX
 
 (pump-malfunction)=
