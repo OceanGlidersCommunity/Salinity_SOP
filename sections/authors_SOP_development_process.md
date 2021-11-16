@@ -46,7 +46,7 @@ Co-chaired the OceanGliders salinity SOP expert kick-off meeting on July 22 2021
 Moved the SOP to GitHub and will maintain it there until the first release and final publication. 
 
 [Evi Bourma](https://github.com/evibourma) wrote the preventative measure for biofouling on GPCTD section.
-Provided images for the Seabird GPCTD on SeaExplorer integration.
+Provided images for the Seabird GPCTD on SeaExplorer integration and glider recovery from a small boot sections.
 Reviewed the whole document and gave comments.  
 
 [Louis Clement](https://github.com/LouClement) wrote parts of the biofouling section related to the flight model.
