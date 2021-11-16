@@ -39,7 +39,7 @@ In this section specific piloting requirements during the mission execution are 
 
 (flight-model)=
 ### Flight model calibration dives
-Upon deployment it is important to perform a number of calibration dives (follow steps outlined Depth Averaged Currents (DAC) SOP to constrain the flight model) in order to be used for the correction of salinity in the field (4.1).
+Upon deployment it is important to perform a number of calibration dives (follow steps outlined Depth Averaged Currents (DAC) SOP to constrain the flight model) in order to be used for the correction of salinity in the field {numref}`sensor-calib`.
 
 (sensor-correction)=
 ### Data to correct for sensor drift and offset
