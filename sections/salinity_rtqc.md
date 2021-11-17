@@ -5,7 +5,7 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 ## Required Metadata and Real Time Data Processing
 - XXX
 
-## Real Time quality control (RTQC)
+## Real Time Quality Control (RTQC)
 - XXX
 
 ### Global range check
