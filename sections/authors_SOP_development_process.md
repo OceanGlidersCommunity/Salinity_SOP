@@ -53,7 +53,7 @@ Reviewed the whole document and gave comments.
 Reviewed the whole document and gave comments.
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-[Bastien Y. Queste](https://github.com/bastienqueste) Wrote the RBR Legato and Sea Explorer section. Reviewed the thermal lag section and commented on the overall document. 
+[Bastien Y. Queste](https://github.com/bastienqueste) Wrote the RBR*legato*<sup>3</sup> and Sea Explorer section. Reviewed the thermal lag section and commented on the overall document. 
 
 [Nikolaos D. Zarokanellos](https://github.com/nizaroka) wrote parts on the pump malfunction and biofouling.
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
