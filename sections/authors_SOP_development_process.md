@@ -80,6 +80,6 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 [Daniel Haixing Wang](https://github.com/KingSeaStar) wrote parts of the thermal lag correction section.
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
-Mattieu Dever wrote the RBR Legato section.
+Mattieu Dever wrote the RBR*legato*<sup>3</sup> section.
 
 Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image.  
