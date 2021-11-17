@@ -68,7 +68,7 @@ He joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 [Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. 
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. Reviewed the whole documemt.
 
-[Clark Richards](https://github.com/richardsc) provided images for the  RBR legato on SeaExplorer integration.
+[Clark Richards](https://github.com/richardsc) provided images for the  RBR*legato*<sup>3</sup> on SeaExplorer integration.
 Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021. 
 
 [John Kerfoot](https://github.com/kerfoot) wrote parts of the DMQC section.
