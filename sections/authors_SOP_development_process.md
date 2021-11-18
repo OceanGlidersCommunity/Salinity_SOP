@@ -32,7 +32,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 4) New authors joined: [Anthony Bosse](https://github.com/AnthonyBosse), [Evi Bourma](https://github.com/evibourma), Mathieu Dever, [Gerd Krahmann](https://github.com/gkrahmann), Joe Wang in September / October 2021.
 
-5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma) and [Louis Clement](https://github.com/LouClement) supported the preparation of the community review. [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
+5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma), [Louis Clement](https://github.com/LouClement) and [Julius Busecke](https://github.com/jbusecke) supported the preparation of the community review. 
 
 ## Contributions 
 
@@ -84,4 +84,7 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
 Mattieu Dever wrote the RBR*legato*<sup>3</sup> section.
 
-Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image.  
+Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
+
+[Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
+
