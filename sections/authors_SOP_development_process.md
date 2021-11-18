@@ -89,5 +89,5 @@ Joe Wang provided a brief overview of the integration of CT-sensors with the Pet
 
 [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
 
-John Allen provided input on related to inter-comparisons with other platforms.
+John Allen provided input related to inter-comparisons with other platforms and datasets.
 
