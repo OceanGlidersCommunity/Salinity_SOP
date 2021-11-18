@@ -12,14 +12,13 @@
   3. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
   4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
   5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
-
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
   1. Joe Wang, *AMT, Advanced Marine Technology Group Limited*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
-
+  2. John Allen, *SOCIB, Palma de Mallorca, Spain*
 
 ## SOP development process
 
@@ -33,6 +32,8 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 4) New authors joined: [Anthony Bosse](https://github.com/AnthonyBosse), [Evi Bourma](https://github.com/evibourma), Mathieu Dever, [Gerd Krahmann](https://github.com/gkrahmann), Joe Wang in September / October 2021.
 
 5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma), [Louis Clement](https://github.com/LouClement) and [Julius Busecke](https://github.com/jbusecke) supported the preparation of the community review. 
+
+7) New authors joined in November 2021: John Allen.
 
 ## Contributions 
 
@@ -87,4 +88,6 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
 
 [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
+
+John Allen provided input on related to inter-comparisons with other platforms.
 
