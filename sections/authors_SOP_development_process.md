@@ -18,7 +18,7 @@
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
   1. Joe Wang, *AMT, Advanced Marine Technology Group Limited*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
-  2. John Allen, *SOCIB, Palma de Mallorca, Spain*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
 
 ## SOP development process
 
@@ -33,7 +33,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma), [Louis Clement](https://github.com/LouClement) and [Julius Busecke](https://github.com/jbusecke) supported the preparation of the community review. 
 
-7) New authors joined in November 2021: John Allen.
+6) New authors joined in November 2021: John Allen.
 
 ## Contributions 
 
