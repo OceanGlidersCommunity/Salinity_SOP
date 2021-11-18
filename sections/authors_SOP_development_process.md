@@ -12,13 +12,13 @@
   3. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
   4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
   5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
-
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
   1. Mathieu Dever, *RBR, Ottawa, Canada*
   1. Joe Wang, *AMT, Advanced Marine Technology Group Limited*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
+  2. John Allen, *SOCIB, Palma de Mallorca, Spain*
 
 
 ## SOP development process
