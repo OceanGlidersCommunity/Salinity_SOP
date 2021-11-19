@@ -16,7 +16,7 @@
   1. Travis Miles, *Rutgers, USA*
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
-  1. Joe Wang, *AMT, Advanced Marine Technology Group Limited*
+  1. Joe Wang, *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
 
