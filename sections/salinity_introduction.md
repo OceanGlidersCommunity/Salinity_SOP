@@ -8,7 +8,7 @@ The first section describes the available sensors and their integration with gli
 (table1)=
 *Table 1: List of the known sensor/glider combinations we aim to cover in this document.*
 
-| Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  ATM Petrel |  Information |
+| Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  AMT Petrel |  Information |
 |---|---|---|---|---|---|---|---|---|
 | Seabird - Glider Payload CTD and Slocum Glider CTD (pumped) | X [Slocum specific](https://www.seabird.com/slocum-glider-ctd/product?id=60762467713)|   | X | X | X | X  |   | [Link](https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712#) |
 | Seabird - CT-Sail  (unpumped) | X |   | X |   | X |   |    | CT-Sail (provided by Sea-Bird on request) |
