@@ -3,7 +3,7 @@
 This chapter has to be co-developed with the OceanGliders Data Management Task Team, the Data Assembly Centers (DACs) and RTQC Best Practice group to ensure to build on their work.
 
 ## Required Metadata and Real Time Data Processing
-- XXX
+- XXX 
 
 ## Real Time Quality Control (RTQC)
 - XXX
