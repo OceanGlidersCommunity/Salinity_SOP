@@ -67,7 +67,8 @@ Often, the correction is not perfect: the remaining error can be reported as a R
 Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). (Figure credit: Isabelle Giddy).
 :::
 
-There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
+There are a number of implementations used by the community to correct for conductivity cell thermal inertia. 
+These have generally been developed for specific sensor-platform integrations and are listed below as such. 
 
 (method1)=
 ##### Unpumped Seabird CT cell on seagliders
