@@ -35,7 +35,7 @@ Ideally, offshore deep profiles sampling water mass with low variability in thei
 
 (piloting)=
 ## Piloting
-In this section specific piloting requirements during the mission execution are mentioned which are needed to allow quality control.
+In this section specific piloting requirements during the mission execution are mentioned which are needed to allow quality control. 
 
 (flight-model)=
 ### Flight model calibration dives
