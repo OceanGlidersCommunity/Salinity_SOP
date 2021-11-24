@@ -49,7 +49,8 @@ Thermistors and conductivity cells have finite, but different, response times an
 
 (TL-correction-temperature)=
 #### Apply correction for thermistor thermal inertia
-Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. If a sensor has a long response time
+Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. 
+If a sensor has a long response time
 relative to the time scale for temperature changes, then the measured temperature will both lag the true signal, and have a reduced high-frequency amplitude. The error manifests itself as spikes in salinity and density especially when crossing interfaces with a sharp change in temperature with depth. The simplest correction it to shift temperature in time to ensure that the conductivity and temperature readings were taken simultaneously. 
 
 (TL-correction)=
