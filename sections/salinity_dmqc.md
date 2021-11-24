@@ -18,7 +18,8 @@ For pumped CTDs, the flow through the CT cell is known and constant, thus correc
 In the case of unpumped CTDs, for increased accuracy, we recommend using the modelled velocity of the glider through the water (based on the flight model) to estimate the flushing speed of the CT cell, which can be used to correct for the temperature offset (reference to Depth Averages Current (DAC) SOP). 
 The flight model can be improved by following pre-deployment and piloting protocols as per the DAC SOP. 
 The amplitude of the error, ɑ, and the time offset constant, 𝜏, are used to correct for thermal mass offset. 
-These parameters can be estimated by minimizing the difference between consecutive up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by {cite}`morison_correction_1994`. We use up-down dives (the top of the yo) for this correction because the measurements are closest in time and space in the upper layer/thermocline where thermal-intertia errors tend to be most important. 
+These parameters can be estimated by minimizing the difference between consecutive up and down dives in temperature and salinity space, although minimizing in salinity and depth space can be preferable in some environmental conditions (with different stratification characteristics) and was also applied by {cite}`morison_correction_1994`. 
+We use up-down dives (the top of the yo) for this correction because the measurements are closest in time and space in the upper layer/thermocline where thermal-intertia errors tend to be most important. 
 One can elect to apply this minimization per dive or over the whole mission.
 Per dive tends to give cleaner data but can sometimes mask real signals (if regressed in depth, z). 
 Applying the minimization per mission makes the assumption that the shape of the sensor doesn’t change and that the model is representative and so only one set of parameters is needed to represent a whole mission. 
@@ -48,7 +49,8 @@ Thermistors and conductivity cells have finite, but different, response times an
 
 (TL-correction-temperature)=
 #### Apply correction for thermistor thermal inertia
-Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. If a sensor has a long response time
+Heat must diffuse through a metal housing to reach the thermistor itself before a temperature change is registered. 
+If a sensor has a long response time
 relative to the time scale for temperature changes, then the measured temperature will both lag the true signal, and have a reduced high-frequency amplitude. The error manifests itself as spikes in salinity and density especially when crossing interfaces with a sharp change in temperature with depth. The simplest correction it to shift temperature in time to ensure that the conductivity and temperature readings were taken simultaneously. 
 
 (TL-correction)=
@@ -65,7 +67,8 @@ Often, the correction is not perfect: the remaining error can be reported as a R
 Assessment of thermal inertia effects and its correction for one consecutive dive/climb sequence a) Uncorrected salinity and temperature; b) Corrected salinity and temperature; c) Uncorrected (red) and corrected (black) temperature-depth profile (both dive and climb); d) Uncorrected (red) and corrected (black) salinity-depth profile (both dive and climb); e) the temperature difference between a climb and a dive (uncorrected: red; corrected: black); f) the salinity difference between a climb and a dive (uncorrected: red; corrected: black). (Figure credit: Isabelle Giddy).
 :::
 
-There are a number of implementations used by the community to correct for conductivity cell thermal inertia. These have generally been developed for specific sensor-platform integrations and are listed below as such. 
+There are a number of implementations used by the community to correct for conductivity cell thermal inertia. 
+These have generally been developed for specific sensor-platform integrations and are listed below as such. 
 
 (method1)=
 ##### Unpumped Seabird CT cell on seagliders
