@@ -1,7 +1,7 @@
 # Authors, development process and contributions
 
 ## Authors
-  1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden*
+  1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden*, [0000-0002-8926-3311](https://orcid.org/0000-0002-8926-3311)
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
   1. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Louis Clement](https://github.com/LouClement), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Southampton, UK*
