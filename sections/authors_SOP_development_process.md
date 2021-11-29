@@ -16,7 +16,7 @@
   1. Travis Miles, *Rutgers, USA*
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
-  1. Joe Wang, *AMT, Advanced Marine Technology Group Limited, China*
+  1. [Joe Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
 
@@ -85,7 +85,7 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
 [Mathieu Dever](https://github.com/matdever) wrote the RBR*legato*<sup>3</sup> section.
 
-Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
+[Joe Wang](https://github.com/joewang54) provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
 
 [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
 
