@@ -85,7 +85,7 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
 [Mathieu Dever](https://github.com/matdever) wrote the RBR*legato*<sup>3</sup> section.
 
-Joe Wang provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
+[Joe Wang](https://github.com/joewang54) provided a brief overview of the integration of CT-sensors with the Petrel Glider including an image. 
 
 [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
 
