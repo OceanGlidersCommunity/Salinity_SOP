@@ -65,10 +65,6 @@ The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ±0.0003 S m
 (mounting-location)=
 ### Mounting location
 
-(spray)=
-#### Spray
-- expert missing
-
 (seaglider)=
 #### Seaglider
 On Seagliders the Sea-Bird electronics supplied CT-Sail is mounted on the upper side of the glider pressure hull. 
@@ -82,6 +78,10 @@ The GPCTD is installed between the pressure hull and the fairing in the aft-floo
 
 Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)
 :::
+
+(spray)=
+#### Spray
+Spray gliders use the pumped Sea-Bird 41CP, which is slightly different from the Glider Payload CTD. The differences are largely in the packaging and plumbing.
 
 (slocum)=
 #### Slocum
