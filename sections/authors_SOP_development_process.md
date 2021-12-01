@@ -8,9 +8,9 @@
   1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*, [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*, [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
   1. [Anthony Bosse](https://github.com/AnthonyBosse), *MIO, Aix-Marseille University, Marseille, France*, [0000-0001-6968-3805](https://orcid.org/0000-0001-6968-3805)
-  1. [Donglai Gong](https://github.com/truedichotomy), *Virginia Institute of Marine Science* 
+  1. [Donglai Gong](https://github.com/truedichotomy), *Virginia Institute of Marine Science*, [0000-0002-1697-1739](https://orcid.org/0000-0002-1697-1739) 
   3. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany*, [0000-0003-0944-8795](https://orcid.org/0000-0003-0944-8795) 
-  4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
+  4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*, [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
   5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*
