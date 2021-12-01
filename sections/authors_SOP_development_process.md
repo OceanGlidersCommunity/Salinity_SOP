@@ -14,7 +14,7 @@
   5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*, [0000-0002-7833-206X](https://orcid.org/0000-0002-7833-206X)
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*, [0000-0003-1992-0248](https://orcid.org/0000-0003-1992-0248)
-  1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
+  1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*, [0000-0001-7807-725X](https://orcid.org/0000-0001-7807-725X)
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
