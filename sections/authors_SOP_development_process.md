@@ -91,3 +91,5 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 
 John Allen provided input related to inter-comparisons with other platforms and datasets.
 
+[Robert Todd](https://github.com/rtodd-WHOI) provided input on Spray Gliders.
+
