@@ -15,7 +15,7 @@
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
   1. Travis Miles, *Rutgers, USA*, [0000-0003-1992-0248](https://orcid.org/0000-0003-1992-0248)
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*, [0000-0001-7807-725X](https://orcid.org/0000-0001-7807-725X)
-  1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
+  1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*, [0000-0002-4292-6368](https://orcid.org/0000-0002-4292-6368)
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*, [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
