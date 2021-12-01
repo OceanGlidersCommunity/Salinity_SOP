@@ -13,7 +13,7 @@
   4. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*, [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
   5. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*, [0000-0002-7833-206X](https://orcid.org/0000-0002-7833-206X)
   1. [John Kerfoot](https://github.com/kerfoot), *Rutgers, USA*
-  1. Travis Miles, *Rutgers, USA*
+  1. Travis Miles, *Rutgers, USA*, [0000-0003-1992-0248](https://orcid.org/0000-0003-1992-0248)
   1. [Daniel Haixing Wang](https://github.com/KingSeaStar), *Virginia Institute of Marine Science, USA*
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
