@@ -83,6 +83,8 @@ Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: 
 #### Spray
 Spray gliders use the pumped Sea-Bird 41CP, which is slightly different from the Glider Payload CTD. The differences are largely in the packaging and plumbing.
 
+On Spray, the SBE 41CP is mounted on the dorsal side of the aft wet bay. Sampling is only during the ascending phase of each dive when the glider's angle of attack provides clean flow to the intake.
+
 (slocum)=
 #### Slocum
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
@@ -133,6 +135,8 @@ Sensors integrated on [Seagliders](seaglider) are limited to once every 5 second
 
 Older [Slocums](slocum) with a persistor typically sample once every 4 seconds (0.25 Hz). This can be changed to once every 2 seconds (0.5 Hz) when the science persistor has 'free' time, meaning when you do not have too many other sensors.
 Recent models (eg. G3) can handle faster sampling rates.  
+
+Sampling on [Spray](spray) is 0.125 Hz (every 8 seconds).
 
 (sensor-storage)=
 ### Sensor storage
