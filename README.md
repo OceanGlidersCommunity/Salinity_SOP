@@ -18,8 +18,8 @@ See contributer guideline [here](https://github.com/OceanGlidersCommunity/Salini
 ## Next steps
 1) 4 months community review on GitHub starting in November 2021 until February 28 2022
 2) Follow the requirements for the [GOOS](https://www.goosocean.org) endorsement process as outline in [Hermes 2020](http://dx.doi.org/10.25607/OBP-926)
-3) Submission to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review March 2022
-4) Depositing of major SOP releases at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org)
+3) Depositing of first major SOP release at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org) + doi by OBPS.
+4) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review March 2022
 
 The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time. 
 After major revisions regular peer-reviewed updates are planned.
