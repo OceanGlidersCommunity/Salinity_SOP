@@ -5,7 +5,7 @@
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
   1. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Louis Clement](https://github.com/LouClement), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Southampton, UK*
-  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*, [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*, [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
   1. [Anthony Bosse](https://github.com/AnthonyBosse), *MIO, Aix-Marseille University, Marseille, France*, [0000-0001-6968-3805](https://orcid.org/0000-0001-6968-3805)
   1. [Donglai Gong](https://github.com/truedichotomy), *Virginia Institute of Marine Science* 
