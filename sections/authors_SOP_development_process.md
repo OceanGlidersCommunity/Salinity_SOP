@@ -18,7 +18,7 @@
   1. [Mathieu Dever](https://github.com/matdever), *RBR, Ottawa, Canada*
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
-  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain*, [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
 
 ## SOP development process
 
