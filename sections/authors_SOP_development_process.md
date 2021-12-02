@@ -34,7 +34,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma), [Louis Clement](https://github.com/LouClement) and [Julius Busecke](https://github.com/jbusecke) supported the preparation of the community review. 
 
-6) New authors joined in November 2021: John Allen.
+6) New authors joined during the community review: John Allen and [Robert E. Todd](https://github.com/rtodd-WHOI).
 
 ## Contributions 
 
