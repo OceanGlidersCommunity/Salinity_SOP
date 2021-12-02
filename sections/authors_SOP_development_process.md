@@ -19,6 +19,7 @@
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
+  1. [Robert E. Todd](https://github.com/rtodd-WHOI), *Woods Hole Oceanographic Institution, Woods Hole, MA, USA*, [0000-0002-6854-7729](https://orcid.org/0000-0002-6854-7729)
 
 ## SOP development process
 
