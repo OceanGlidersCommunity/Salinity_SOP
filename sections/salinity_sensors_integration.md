@@ -85,6 +85,12 @@ Spray gliders use the pumped Sea-Bird 41CP, which is slightly different from the
 
 On Spray, the SBE 41CP is mounted on the dorsal side of the aft wet bay. Sampling is only during the ascending phase of each dive when the glider's angle of attack provides clean flow to the intake.
 
+:::{figure-md} SPRAY
+<img src="/images/todd_spray.jpg" alt="SPRAY" class="bg-primary mb-1" width="200px">
+Spary glider. The conductivity cell is the black cylinder on top of the white tail section; the thermistor is in the intake just forward of the conductivity cell. Two metal guards forward of the intake provide protection to the CTD. (Image credit: Robert E. Todd)
+:::
+
+
 (slocum)=
 #### Slocum
 On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider. 
