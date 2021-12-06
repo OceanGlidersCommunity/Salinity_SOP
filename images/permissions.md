@@ -40,4 +40,5 @@ Example:
 - `giddy-slocum-gpctd` - Isabelle Giddy
 - `queste_rbr_legato.png` - Bastien Queste
 - `wang_RBR Integration.jpg` - Joe Wang 
+- `todd_spray.jpg` - Robert E. Todd
 
