@@ -87,7 +87,7 @@ On Spray, the SBE 41CP is mounted on the dorsal side of the aft wet bay. Samplin
 
 :::{figure-md} SPRAY
 <img src="/images/todd_spray.jpg" alt="SPRAY" class="bg-primary mb-1" width="200px">
-Spary glider. The conductivity cell is the black cylinder on top of the white tail section; the thermistor is in the intake just forward of the conductivity cell. Two metal guards forward of the intake provide protection to the CTD. (Image credit: Robert E. Todd)
+Spray glider. The conductivity cell is the black cylinder on top of the white tail section; the thermistor is in the intake just forward of the conductivity cell. Two metal guards forward of the intake provide protection to the CTD. (Image credit: Robert E. Todd)
 :::
 
 
