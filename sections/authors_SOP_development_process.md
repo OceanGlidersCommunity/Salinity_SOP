@@ -19,6 +19,8 @@
   1. [Jue Wang](https://github.com/joewang54), *AMT, Advanced Marine Technology Group Limited, China*
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*, [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
+  1. [Robert E. Todd](https://github.com/rtodd-WHOI), *Woods Hole Oceanographic Institution, Woods Hole, MA, USA*, [0000-0002-6854-7729](https://orcid.org/0000-0002-6854-7729)
+
 
 ## SOP development process
 
@@ -33,7 +35,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 5) SOP moved to this repository by: [Isabelle Giddy](https://github.com/patricialg) and [Soeren Thomsen](https://github.com/soerenthomsen) in November 2021. [Evi Bourma](https://github.com/evibourma), [Louis Clement](https://github.com/LouClement) and [Julius Busecke](https://github.com/jbusecke) supported the preparation of the community review. 
 
-6) New authors joined in November 2021: John Allen.
+6) New authors joined during the community review: John Allen and [Robert E. Todd](https://github.com/rtodd-WHOI).
 
 ## Contributions 
 
@@ -90,4 +92,6 @@ Joined the OceanGliders salinity SOP expert kick-off meeting on July 22 2021.
 [Julius Busecke](https://github.com/jbusecke) supported the setting up of the jupyter book deployment.
 
 John Allen provided input related to inter-comparisons with other platforms and datasets.
+
+[Robert Todd](https://github.com/rtodd-WHOI) provided input on Spray Gliders.
 
