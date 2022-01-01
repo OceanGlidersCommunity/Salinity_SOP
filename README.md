@@ -6,6 +6,8 @@ This [GitHub repository](https://github.com/OceanGlidersCommunity/Salinity_SOP) 
 
 Read the SOP [here](https://oceangliderscommunity.github.io/Salinity_SOP/README.html). 
 
+Everyone is welcome to join the SOP at any time.
+
 ## Community review
 The community review is open from November 2021 to February 28 2022.
 
