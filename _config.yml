@@ -14,6 +14,13 @@ html:
   comments:
     utterances:
       repo: "OceanGlidersCommunity/Salinity_SOP"
+  extra_footer: |
+    <p>  By the OceanGliders community using
+      <a href="https://jupyterbook.org/intro.html"   target="_blank">Jupyter Book</a>. 
+      This work is licensed under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
+    </p>      
+      
 bibtex_bibfiles:
     - salinity.bib
 sphinx:
