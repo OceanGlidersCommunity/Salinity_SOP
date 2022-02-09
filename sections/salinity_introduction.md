@@ -5,6 +5,8 @@ This OceanGliders standard operating procedure (SOP) document for salinity aims 
 
 The first section describes the available sensors and their integration with gliders. The following sections outline general pre deployment / real time / post deployment and data dissemination protocol recommendations. Finally, the future outlook for salinity measurements by gliders is discussed. 
 
+## Overview sensor glider combinations
+
 (table1)=
 *Table 1: List of the known sensor/glider combinations we aim to cover in this document.*
 
