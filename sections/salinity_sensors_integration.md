@@ -12,7 +12,7 @@ Pumped CT sensors on the other hand, have a constant through-flow rate, allowing
 
 (sea-bird)=
 ### Sea-Bird
-Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electronics is currently the most widely used sensor on gliders. 
+Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electronics are currently the most widely used sensor on gliders. 
 
 (unpumped)=
 #### Unpumped
@@ -57,7 +57,7 @@ As such, it is very good for near-surface applications and slow glider speeds, a
 The RBR*legato*<sup>3</sup> has low power consumption (45 mW) when sampling at 2 Hz. Its profile and low power have many benefits, but the inductive cell and relative youth of the sensor leave some open questions regarding long term accuracy.
 As a logger, the RBR*legato*<sup>3</sup> can also integrate other RBR sensors (such as the oxygen optode [RBR*coda*<sup>3</sup> T.ODO](https://rbr-global.com/products/sensors/rbrcoda-todo)) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider. 
 
-The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ±0.0003 S m<sup>-1</sup> over a range of 0 to 9 S m<sup>-1</sup> for Conductivity, 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C for Temperature, and ±0.05% full scale for Pressure, up to 1000 m. 
+The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ±0.0003 S m<sup>-1</sup> over a range of 0 to 9 S m<sup>-1</sup> for Conductivity, ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C for Temperature, and ± 0.05% full scale for Pressure, up to 1000 m. 
 
 (integration)=
 ## Sensor integrations with gliders
@@ -69,7 +69,7 @@ The RBR*legato*<sup>3</sup> has a manufacturer-provided accuracy of ±0.0003 S m
 #### Seaglider
 On Seagliders the Sea-Bird electronics supplied CT-Sail is mounted on the upper side of the glider pressure hull. 
 Flow past the CT sensors relies solely on the movement of the glider. 
-Sea-Bird no longer lists the CT-Sail but is manufactured on request by integrators. 
+Sea-Bird no longer lists the CT-Sail, but it is manufactured on request by integrators. 
 The Glider Payload CTD replaces the CT-Sail and was developed for easier integration and improved data output associated with the addition of a pump to control flow past the sensors. 
 The GPCTD is installed between the pressure hull and the fairing in the aft-flooded payload bay. 
 
@@ -136,7 +136,7 @@ RBR*legato*<sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup>
 ### Sensor sampling rates
 While each sensor has a range of sampling rates that can be set, the real limitation is set by the processing system associated with the platform.
 
-Sensors integrated on [Seagliders](seaglider) are limited to once every 5 seconds (0.2 Hz), unless the seaglider is installed with a scicon board (discontinued). 
+Sensors integrated on [Seagliders](seaglider) are limited to once every 5 seconds (0.2 Hz), unless the Seaglider is installed with a scicon board (discontinued). 
 
 [SeaExplorers](seaexplorer) have a dedicated ARM processor and can handle up to 16Hz. 
 
