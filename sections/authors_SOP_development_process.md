@@ -96,5 +96,5 @@ John Allen provided input related to inter-comparisons with other platforms and 
 
 [Robert Todd](https://github.com/rtodd-WHOI) provided input on Spray Gliders.
 
-[Callum Rollo](https://github.com/callumrollo) reviewd and feedback on the whole document.
+[Callum Rollo](https://github.com/callumrollo) reviewed the whole document.
 
