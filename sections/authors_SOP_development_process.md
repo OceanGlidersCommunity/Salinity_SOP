@@ -20,7 +20,7 @@
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*, [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*, [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
   1. [Robert E. Todd](https://github.com/rtodd-WHOI), *Woods Hole Oceanographic Institution, Woods Hole, MA, USA*, [0000-0002-6854-7729](https://orcid.org/0000-0002-6854-7729)
-  2. [Callum Rollo](https://github.com/callumrollo), *please add affiliation and ORCID*
+  2. [Callum Rollo](https://github.com/callumrollo), *Voice of the Ocean Foundation, Göteborg, Sweden,* [0000-0002-5134-7886](https://orcid.org/0000-0002-5134-7886)
 
 
 ## SOP development process
