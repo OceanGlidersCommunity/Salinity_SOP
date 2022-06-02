@@ -1,0 +1,5 @@
+name: salinity_sop
+dependencies:
+  - pip
+  - pip:
+    - -r requirements.txt
