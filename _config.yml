@@ -21,9 +21,15 @@ html:
       <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
     </p>      
       
-bibtex_bibfiles:
-    - salinity.bib
 sphinx:
+  local_extensions:
+    apastyle: _ext/
+    bracket_citation_style: _ext/
   config:
-    bibtex_reference_style: author_year
+    bibtex_default_style: myapastyle
+    bibtex_reference_style: author_year_round
     html_show_copyright: false
+
+bibtex_reference_style      : author_year_round
+bibtex_default_style        : myapastyle
+bibtex_bibfiles             : salinity.bib
