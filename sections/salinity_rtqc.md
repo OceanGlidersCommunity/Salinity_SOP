@@ -27,8 +27,10 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 ### Regional Range
 
 - GTSPP:
-  - Mediterranean Sea: Accepted range 0 to 40.0 PSU. Defined by the polygon 30N 6W; 30N 40E; 40N 35E; 42N 20E; 50N 15E; 40N 5E; 30N 6W;
-  - Red Sea: Accepted range 0 to 40 PSU/ Defined by the polygon 10N 40E; 20N 50E; 30N 30E; 10N 40E;
+  - Mediterranean Sea: Accepted range 0 to 40.0 PSU. Defined by the polygon
+    30N 6W; 30N 40E; 40N 35E; 42N 20E; 50N 15E; 40N 5E; 30N 6W;
+  - Red Sea: Accepted range 0 to 40 PSU/ Defined by the polygon 10N 40E;
+    20N 50E; 30N 30E; 10N 40E;
 
 ### Global Profile Envelope
 
