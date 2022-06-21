@@ -18,9 +18,10 @@ Callum Rollo, Victor Turpin, Isabelle Giddy, Corentin Guyot, Soeren Thomsen
 ## Agenda
 1) Presentation by Victor Turpin: Real Time Data Management of Temperature and Salinity
 - slides to be uploaded here
-2) Collection of issues by users
-3) OceanGliders Salinity SOP
-4) Discussion points: 
+2) OceanGliders Salinity SOP by Soeren Thomsen
+4) Live notes via hack md by Callum Rollo
+5) Collection of issues by users
+6) Discussion points: 
 - Community feedback on the data flow? 
 - Where are your difficulties in providing gliders data to Coriolis GDAC? 
 - How can we improving the Real Time data flow ? Where are the bottlenecks? 
