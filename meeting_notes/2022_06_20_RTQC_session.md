@@ -2,9 +2,9 @@
 
 # Date: June 20 2022
 
-# Participants
-
 Session chair: Soeren Thomsen
+
+# Participants
 Callum Rollo, Victor Turpin, Isabelle Giddy, Corentin Guyot, 
 - please add your name
 
