@@ -43,7 +43,8 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
   - 3000 to 12000: 33 to 37
 
 ### Outlier and spike check
-- XXX
+
+- GTSPP: 0.3 PSU
 
 ### Stuck value test
 - XXX
