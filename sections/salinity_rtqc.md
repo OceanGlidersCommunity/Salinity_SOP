@@ -47,7 +47,17 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 - GTSPP: 0.3 PSU
 
 ### Stuck value test
-- XXX
+
+- GTSPP:
+
+### Gradient
+
+- GTSPP: 5 PSU
+- Argo: Dropped this test on 20??
+
+### Rate of Change
+
+- GTSPP: A modification of this test applied on the start and end of a profile and named "Top and Bottom Spike"
 
 (pump-malfunction)=
 ### Pump malfunction
