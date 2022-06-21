@@ -59,6 +59,13 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 
 - GTSPP: A modification of this test applied on the start and end of a profile and named "Top and Bottom Spike"
 
+### Density Inversion
+
+Require that pressure, temperature, and salinity to have passed individually
+on its QC checks. This test reduce further the space of expected salinity.
+
+- GTSPP: Threshold 0 kg/m3 (This is probably too agressive)
+
 (pump-malfunction)=
 ### Pump malfunction
 
