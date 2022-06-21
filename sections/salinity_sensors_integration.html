@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3. Sensors and integrations &#8212; Salinity SOP</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "OceanGlidersCommunity/Salinity_SOP");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="4. Pre deployment protocol" href="salinity_pre_deployment.html" />
+    <link rel="prev" title="2. Introduction" href="salinity_introduction.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo-ocean-gliders.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Salinity SOP</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../README.html">
+   OceanGliders Salinity SOP
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="authors_SOP_development_process.html">
+   1. Authors, development process and contributions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_introduction.html">
+   2. Introduction
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   3. Sensors and integrations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_pre_deployment.html">
+   4. Pre deployment protocol
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_mission_execution.html">
+   5. Missions execution
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_rtqc.html">
+   6. Required Metadata, Real Time Data Processing &amp; Quality Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_post_recovery.html">
+   7. Post-recovery operations and calibrations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_dmqc.html">
+   8. Delayed Mode Quality Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data_sharing.html">
+   9. Data sharing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_references.html">
+   10. References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acknowledgement.html">
+   11. Acknowledgement
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/sections/salinity_sensors_integration.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/OceanGlidersCommunity/Salinity_SOP"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/OceanGlidersCommunity/Salinity_SOP/issues/new?title=Issue%20on%20page%20%2Fsections/salinity_sensors_integration.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/OceanGlidersCommunity/Salinity_SOP/edit/main/sections/salinity_sensors_integration.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ctd-sensors">
+   3.1. CTD Sensors
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sea-bird">
+     3.1.1. Sea-Bird
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#unpumped">
+       3.1.1.1. Unpumped
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pumped">
+       3.1.1.2. Pumped
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rbrlegato-sup-3-sup">
+     3.1.2. RBR
+     <em>
+      legato
+     </em>
+     <sup>
+      3
+     </sup>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sensor-integrations-with-gliders">
+   3.2. Sensor integrations with gliders
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mounting-location">
+     3.2.1. Mounting location
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seaglider">
+       3.2.1.1. Seaglider
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#spray">
+       3.2.1.2. Spray
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#slocum">
+       3.2.1.3. Slocum
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seaexplorer">
+       3.2.1.4. SeaExplorer
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#petrel-glider">
+       3.2.1.5. Petrel Glider
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sensor-sampling-rates">
+     3.2.2. Sensor sampling rates
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sensor-storage">
+     3.2.3. Sensor storage
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Sensors and integrations</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ctd-sensors">
+   3.1. CTD Sensors
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sea-bird">
+     3.1.1. Sea-Bird
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#unpumped">
+       3.1.1.1. Unpumped
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pumped">
+       3.1.1.2. Pumped
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rbrlegato-sup-3-sup">
+     3.1.2. RBR
+     <em>
+      legato
+     </em>
+     <sup>
+      3
+     </sup>
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sensor-integrations-with-gliders">
+   3.2. Sensor integrations with gliders
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mounting-location">
+     3.2.1. Mounting location
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seaglider">
+       3.2.1.1. Seaglider
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#spray">
+       3.2.1.2. Spray
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#slocum">
+       3.2.1.3. Slocum
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#seaexplorer">
+       3.2.1.4. SeaExplorer
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#petrel-glider">
+       3.2.1.5. Petrel Glider
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sensor-sampling-rates">
+     3.2.2. Sensor sampling rates
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sensor-storage">
+     3.2.3. Sensor storage
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="sensors-and-integrations">
+<span id="sensors-integration"></span><h1><span class="section-number">3. </span>Sensors and integrations<a class="headerlink" href="#sensors-and-integrations" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ctd-sensors">
+<span id="id1"></span><h2><span class="section-number">3.1. </span>CTD Sensors<a class="headerlink" href="#ctd-sensors" title="Permalink to this headline">¶</a></h2>
+<p>On gliders, currently three types of CTD-sensors are in use (see <a class="reference internal" href="salinity_introduction.html#table1"><span class="std std-ref">Table 1</span></a>).
+CT sensors can be unpumped (<a class="reference internal" href="#unpumped"><span class="std std-ref">Sections 3.1.1.1</span></a>; <a class="reference internal" href="#rbr-legato"><span class="std std-ref">3.1.2</span></a>) or pumped (<a class="reference internal" href="#pumped"><span class="std std-ref">Section 3.1.1.2</span></a>).
+Unpumped CT sensors have lower power consumption requirements as well as reduced susceptibility to blockages/failures because of the larger throughflow pipe (<a class="reference internal" href="salinity_rtqc.html#pump-malfunction"><span class="std std-ref">Section 6.2.4</span></a>).
+There is also reduced background vibration and noise, which is advantageous when measuring microstructure <span id="id2">(<a class="reference internal" href="salinity_references.html#id6" title="Ilker Fer, Algot K. Peterson, and Jenny E. Ullgren. Microstructure Measurements from an Underwater Glider in the Turbulent Faroe Bank Channel Overflow. Journal of Atmospheric and Oceanic Technology, 31(5):1128–1150, 2014. URL: https://journals.ametsoc.org/view/journals/atot/31/5/jtech-d-13-00221_1.xml, doi:10.1175/JTECH-D-13-00221.1.">Fer <em>et al.</em>, 2014</a>)</span>.
+However, the disadvantage of the unpumped sensors is in the post processing correction for the effects of thermal-inertia because the flow rate through the inlet is not known and has to be estimated from the glider’s flight model (<a class="reference internal" href="salinity_dmqc.html#dynamic-error-correction"><span class="std std-ref">Section 8.1</span></a>).
+Pumped CT sensors on the other hand, have a constant through-flow rate, allowing for a simpler correction of thermal-inertia. Nevertheless, both pumped and unpumped sensors require corrections for thermal-inertia (<a class="reference internal" href="salinity_dmqc.html#dynamic-error-correction"><span class="std std-ref">Section 8.1</span></a>).</p>
+<div class="section" id="sea-bird">
+<span id="id3"></span><h3><span class="section-number">3.1.1. </span>Sea-Bird<a class="headerlink" href="#sea-bird" title="Permalink to this headline">¶</a></h3>
+<p>Conductivity, temperature and depth (CTD) sensors distributed by Sea-Bird electronics are currently the most widely used sensor on gliders.</p>
+<div class="section" id="unpumped">
+<span id="id4"></span><h4><span class="section-number">3.1.1.1. </span>Unpumped<a class="headerlink" href="#unpumped" title="Permalink to this headline">¶</a></h4>
+<p>The CT-Sail, a free-flushed (unpumped) CTD (SBE41), was the first science payload installed in the Seaglider <span id="id5">(<a class="reference internal" href="salinity_references.html#id7" title="Carol D. Janzen and Elizabeth L. Creed. Physical oceanographic data from Seaglider trials in stratified coastal waters using a new pumped payload CTD. In OCEANS'11 MTS/IEEE KONA, 1–7. Waikoloa, HI, 2011. IEEE. URL: http://ieeexplore.ieee.org/document/6107290/, doi:10.23919/OCEANS.2011.6107290.">Janzen and Creed, 2011</a>)</span> and remains widely in use.
+The separate temperature and conductivity sensors are installed on the upper side of the glider pressure hull and integrated with the internal glider data acquisition and flight control system.
+On the CT-Sail the temperature sensor is positioned beneath and parallel to the conductivity sensor.
+The conductivity sensor itself is positioned within a metal housing with hole cut-outs to allow for flushing. The pressure sensor is located ~40 cm in front of the thermistor, requiring a slight spatial alignment with the sensors.
+Power consumption is 21 mW while profiling.</p>
+<p>Sea-Bird provided <a class="reference external" href="https://www.seabird.com/sbe-41-argo-ctd/product?id=54627907875">CTD SBE41-sensor</a> accuracy ratings: Conductivity: ± 0.0003 S m<sup>-1</sup> over a range of 0 to 7 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 45<sup>o</sup>C and Pressure: ± 2 dbar over a range of 0-2000 m.</p>
+<div class="figure align-default" id="ct-sail">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/giddy_CT_sail.png"><img alt="CT-SAIL" class="bg-primary mb-1" src="../_images/giddy_CT_sail.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.1 </span><span class="caption-text">CT-Sail with metal housing, thermistor located beneath the salinity sensor. (Figure credit: Isabelle Giddy)</span><a class="headerlink" href="#ct-sail" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="pumped">
+<span id="id6"></span><h4><span class="section-number">3.1.1.2. </span>Pumped<a class="headerlink" href="#pumped" title="Permalink to this headline">¶</a></h4>
+<p>The <a class="reference external" href="https://www.seabird.com/glider-payload-ctd-gpctd/product?id=60762467712">Glider Payload CTD (GPCTD)</a> is a modular, self-contained CTD with memory and an integrated pump.
+The GPCTD improves on the CT-Sail through simpler installation requirements as well as a pump which allows for constant flow through the conductivity sensor.
+The CT sensors are ducted and pumped on the GPCTD with the intake positioned to minimize measurement errors caused by the vehicle’s thermally contaminated boundary flow <span id="id7">(<a class="reference internal" href="salinity_references.html#id7" title="Carol D. Janzen and Elizabeth L. Creed. Physical oceanographic data from Seaglider trials in stratified coastal waters using a new pumped payload CTD. In OCEANS'11 MTS/IEEE KONA, 1–7. Waikoloa, HI, 2011. IEEE. URL: http://ieeexplore.ieee.org/document/6107290/, doi:10.23919/OCEANS.2011.6107290.">Janzen and Creed, 2011</a>)</span>.
+Power consumption is 175 mW when continuously recording at 1 Hz.</p>
+<p>Sea-Bird provided GPCTD accuracy ratings are: Conductivity: ± 0.0003 S m<sup>-1</sup> over a range of 0 to 9 S m<sup>-1</sup>; Temperature:  ± 0.002<sup>o</sup>C over a range of -5 - 42<sup>o</sup>C and Pressure: ± 0.1% of full scale range, up to 2000 m.</p>
+<div class="figure align-default" id="slocum-ctd">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/giddy_slocum_CTD.png"><img alt="SLOCUM-CTD" class="bg-primary mb-1" src="../_images/giddy_slocum_CTD.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.2 </span><span class="caption-text">Slocum Glider CTD (pumped). The thermistor is located within the inflow valve on the left (Image credit: Isabelle Giddy)</span><a class="headerlink" href="#slocum-ctd" title="Permalink to this image">¶</a></p>
+</div>
+<p>A variation of the GPCTD, the <a class="reference external" href="https://www.seabird.com/slocum-glider-ctd/product?id=60762467713&amp;callback=qs">Slocum Glider CTD</a> has been developed for installation on SLOCUM gliders. The sensor is installed on the side of the SLOCUM. The continuously pumped CTD consumes 240 mW sampling continuously at 0.5 Hz.</p>
+</div>
+</div>
+<div class="section" id="rbrlegato-sup-3-sup">
+<span id="rbr-legato"></span><h3><span class="section-number">3.1.2. </span>RBR<em>legato</em><sup>3</sup><a class="headerlink" href="#rbrlegato-sup-3-sup" title="Permalink to this headline">¶</a></h3>
+<p>The <a class="reference external" href="https://rbr-global.com/products/oem/rbrlegato">RBR<em>legato</em><sup>3</sup></a> is an integrated CTD and logger package designed specifically for gliders with a hydrodynamic profile.
+It is available in slow (1 s) and fast (0.1 s) response temperature options as well as normal (2 Hz) and fast (16 Hz) sampling speeds.
+The RBR<em>legato</em><sup>3</sup>, unlike the previously mentioned sensors, has an inductive cell rather than conductive, with significant implications for sensor calibration of salinity.
+Its advantages are a large unpumped flow cell, reducing occurrence of spikes due to bubbles and fouling.
+As such, it is very good for near-surface applications and slow glider speeds, as well as for glider missions involving instrumentation sensitive to vibration (e.g., shear probes) or noise (e.g., acoustic packages).
+The RBR<em>legato</em><sup>3</sup> has low power consumption (45 mW) when sampling at 2 Hz. Its profile and low power have many benefits, but the inductive cell and relative youth of the sensor leave some open questions regarding long term accuracy.
+As a logger, the RBR<em>legato</em><sup>3</sup> can also integrate other RBR sensors (such as the oxygen optode <a class="reference external" href="https://rbr-global.com/products/sensors/rbrcoda-todo">RBR<em>coda</em><sup>3</sup> T.ODO</a>) enabling fast 16 Hz sampling even if the glider platform does not have the capability onboard and reduces the number of sensor ports required to connect to the glider.</p>
+<p>The RBR<em>legato</em><sup>3</sup> has a manufacturer-provided accuracy of ±0.0003 S m<sup>-1</sup> over a range of 0 to 9 S m<sup>-1</sup> for Conductivity, ± 0.002<sup>o</sup>C (ITS-90) over a range of -5 to +35<sup>o</sup>C for Temperature, and ± 0.05% full scale for Pressure, up to 1000 m.</p>
+</div>
+</div>
+<div class="section" id="sensor-integrations-with-gliders">
+<span id="integration"></span><h2><span class="section-number">3.2. </span>Sensor integrations with gliders<a class="headerlink" href="#sensor-integrations-with-gliders" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mounting-location">
+<span id="id8"></span><h3><span class="section-number">3.2.1. </span>Mounting location<a class="headerlink" href="#mounting-location" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="seaglider">
+<span id="id9"></span><h4><span class="section-number">3.2.1.1. </span>Seaglider<a class="headerlink" href="#seaglider" title="Permalink to this headline">¶</a></h4>
+<p>On Seagliders the Sea-Bird electronics supplied CT-Sail is mounted on the upper side of the glider pressure hull.
+Flow past the CT sensors relies solely on the movement of the glider.
+Sea-Bird no longer lists the CT-Sail, but it is manufactured on request by integrators.
+The Glider Payload CTD replaces the CT-Sail and was developed for easier integration and improved data output associated with the addition of a pump to control flow past the sensors.
+The GPCTD is installed between the pressure hull and the fairing in the aft-flooded payload bay.</p>
+<div class="figure align-default" id="seaglider-ctsail">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/giddy_seaglider_CTSail.png"><img alt="SEAGLIDER_CTSAIL" class="bg-primary mb-1" src="../_images/giddy_seaglider_CTSail.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.3 </span><span class="caption-text">Unpumped CT-Sail mounted above the pressure hull on a Seaglider. (Image credit: Isabelle Giddy)</span><a class="headerlink" href="#seaglider-ctsail" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="spray">
+<span id="id10"></span><h4><span class="section-number">3.2.1.2. </span>Spray<a class="headerlink" href="#spray" title="Permalink to this headline">¶</a></h4>
+<p>Spray gliders use the pumped Sea-Bird 41CP, which is slightly different from the Glider Payload CTD. The differences are largely in the packaging and plumbing.</p>
+<p>On Spray, the SBE 41CP is mounted on the dorsal side of the aft wet bay. Sampling is only during the ascending phase of each dive when the glider’s angle of attack provides clean flow to the intake.</p>
+<div class="figure align-default" id="id11">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/todd_spray.jpg"><img alt="SPRAY" class="bg-primary mb-1" src="../_images/todd_spray.jpg" style="width: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.4 </span><span class="caption-text">Spray glider. The conductivity cell is the black cylinder on top of the white tail section; the thermistor is in the intake just forward of the conductivity cell. Two metal guards forward of the intake provide protection to the CTD. (Image credit: Robert E. Todd)</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="slocum">
+<span id="id12"></span><h4><span class="section-number">3.2.1.3. </span>Slocum<a class="headerlink" href="#slocum" title="Permalink to this headline">¶</a></h4>
+<p>On slocum gliders, an adaptation of the GPCTD, the Slocum Glider CTD, is installed beneath a wing on the lateral side of the glider.</p>
+<div class="figure align-default" id="slocum-ctd-installed">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/giddy_slocum_glider_CTD.png"><img alt="SLOCUM-CTD-INSTALLED" class="bg-primary mb-1" src="../_images/giddy_slocum_glider_CTD.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.5 </span><span class="caption-text">Slocum Glider CTD installed on a Slocum G2 beneath the wing.  (Image credit: Isabelle Giddy)</span><a class="headerlink" href="#slocum-ctd-installed" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="seaexplorer">
+<span id="id13"></span><h4><span class="section-number">3.2.1.4. </span>SeaExplorer<a class="headerlink" href="#seaexplorer" title="Permalink to this headline">¶</a></h4>
+<p>On SeaExplorer gliders, the CTDs are typically installed in the flooded nose cone area (<a class="reference internal" href="#rbr-legato-seaexplorer"><span class="std std-numref">Fig. 3.6</span></a>, left), though the RBR<em>legato</em><sup>3</sup> can also be configured to be installed through one of the top/side “puck” ports to leave the nose available for other sensors (e.g. acoustic payloads) as shown in <a class="reference internal" href="#rbr-legato-seaexplorer"><span class="std std-numref">Fig. 3.6</span></a>, right.</p>
+<div class="figure align-default" id="rbr-legato-seaexplorer">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/queste_clark_rbr_legato.png"><img alt="RBR_LEGATO_SEAEXPLORER" class="bg-primary mb-1" src="../_images/queste_clark_rbr_legato.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.6 </span><span class="caption-text">RBR<em>legato</em><sup>3</sup> CTD on SeaExplorer (Image credits: Bastien Queste (left) and Clark Richards (right))</span><a class="headerlink" href="#rbr-legato-seaexplorer" title="Permalink to this image">¶</a></p>
+</div>
+<p>In the case of the Sea-Bird GPCTD, the sensors are integrated on the wet payload part located on the front nose of the SeaExplorer glider, with the integrated pump providing a constant flow through the conductivity cell.</p>
+<div class="figure align-default" id="gpctd">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/evi_GPCTD.png"><img alt="GPCTD" class="bg-primary mb-1" src="../_images/evi_GPCTD.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.7 </span><span class="caption-text">Left: Sea-Bird GPCTD on SeaExplorer; Right:  GPCTD on SeaExplorer during in lab preparation (Image credit: Evi Bourma)</span><a class="headerlink" href="#gpctd" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="petrel-glider">
+<span id="petrel"></span><h4><span class="section-number">3.2.1.5. </span>Petrel Glider<a class="headerlink" href="#petrel-glider" title="Permalink to this headline">¶</a></h4>
+<p>The small-size RBR<em>legato</em><sup>3</sup> CTD is embedded in the front fairing of the Petrel glider.
+The CT sensors are exposed outside the fairing to sense the ambient seawater.
+This integration design can minimize the impact of the CTD on the streamline of gliders.</p>
+<div class="figure align-default" id="rbr-petrel">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/wang_rbrlegato3.png"><img alt="RBR_PETREL" class="bg-primary mb-1" src="../_images/wang_rbrlegato3.png" style="width: 200px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.8 </span><span class="caption-text">RBR<em>legato</em><sup>3</sup> Petrel Glider integrated an RBR<i>legato</i><sup>3</sup> CTD in the front fairing. (Image credit: Joe Wang)</span><a class="headerlink" href="#rbr-petrel" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="sensor-sampling-rates">
+<span id="sensor-sampling"></span><h3><span class="section-number">3.2.2. </span>Sensor sampling rates<a class="headerlink" href="#sensor-sampling-rates" title="Permalink to this headline">¶</a></h3>
+<p>While each sensor has a range of sampling rates that can be set, the real limitation is set by the processing system associated with the platform.</p>
+<p>Sensors integrated on <a class="reference internal" href="#seaglider"><span class="std std-ref">Seagliders</span></a> are limited to once every 5 seconds (0.2 Hz), unless the Seaglider is installed with a scicon board (discontinued).</p>
+<p><a class="reference internal" href="#seaexplorer"><span class="std std-ref">SeaExplorers</span></a> have a dedicated ARM processor and can handle up to 16Hz.</p>
+<p>Older <a class="reference internal" href="#slocum"><span class="std std-ref">Slocums</span></a> with a persistor typically sample once every 4 seconds (0.25 Hz). This can be changed to once every 2 seconds (0.5 Hz) when the science persistor has ‘free’ time, meaning when you do not have too many other sensors.
+Recent models (eg. G3) can handle faster sampling rates.</p>
+<p>Sampling on <span class="xref myst">Spray</span> is 0.125 Hz (every 8 seconds).</p>
+</div>
+<div class="section" id="sensor-storage">
+<span id="id14"></span><h3><span class="section-number">3.2.3. </span>Sensor storage<a class="headerlink" href="#sensor-storage" title="Permalink to this headline">¶</a></h3>
+<p>Sensors are stored dry with sensor caps on or tape to cover open valves, and protected from dust and freeze.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sections"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="salinity_introduction.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">2. </span>Introduction</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="salinity_pre_deployment.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">4. </span>Pre deployment protocol</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      <div class="extra_footer">
+        <p>  By the OceanGliders community using
+  <a href="https://jupyterbook.org/intro.html"   target="_blank">Jupyter Book</a>. 
+  This work is licensed under a 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
+</p>      
+  
+
+      </div>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10. References &#8212; Salinity SOP</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "OceanGlidersCommunity/Salinity_SOP");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="11. Acknowledgement" href="acknowledgement.html" />
+    <link rel="prev" title="9. Data sharing" href="data_sharing.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo-ocean-gliders.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Salinity SOP</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../README.html">
+   OceanGliders Salinity SOP
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="authors_SOP_development_process.html">
+   1. Authors, development process and contributions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_introduction.html">
+   2. Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_sensors_integration.html">
+   3. Sensors and integrations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_pre_deployment.html">
+   4. Pre deployment protocol
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_mission_execution.html">
+   5. Missions execution
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_rtqc.html">
+   6. Required Metadata, Real Time Data Processing &amp; Quality Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_post_recovery.html">
+   7. Post-recovery operations and calibrations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="salinity_dmqc.html">
+   8. Delayed Mode Quality Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data_sharing.html">
+   9. Data sharing
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   10. References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="acknowledgement.html">
+   11. Acknowledgement
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/sections/salinity_references.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/OceanGlidersCommunity/Salinity_SOP"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/OceanGlidersCommunity/Salinity_SOP/issues/new?title=Issue%20on%20page%20%2Fsections/salinity_references.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/OceanGlidersCommunity/Salinity_SOP/edit/main/sections/salinity_references.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>References</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="references">
+<h1><span class="section-number">10. </span>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h1>
+<div class="docutils container" id="id1">
+<dl class="citation">
+<dt class="label" id="id6"><span class="brackets">Fer et al., 2014</span></dt>
+<dd><p>Ilker Fer, Algot K. Peterson, and Jenny E. Ullgren. Microstructure Measurements from an Underwater Glider in the Turbulent Faroe Bank Channel Overflow. <em>Journal of Atmospheric and Oceanic Technology</em>, 31(5):1128–1150, 2014. URL: <a class="reference external" href="https://journals.ametsoc.org/view/journals/atot/31/5/jtech-d-13-00221_1.xml">https://journals.ametsoc.org/view/journals/atot/31/5/jtech-d-13-00221_1.xml</a>, <a class="reference external" href="https://doi.org/10.1175/JTECH-D-13-00221.1">doi:10.1175/JTECH-D-13-00221.1</a>.</p>
+</dd>
+<dt class="label" id="id7"><span class="brackets">Janzen &amp; Creed, 2011</span></dt>
+<dd><p>Carol D. Janzen and Elizabeth L. Creed. Physical oceanographic data from Seaglider trials in stratified coastal waters using a new pumped payload CTD. In <em>OCEANS'11 MTS/IEEE KONA</em>, 1–7. Waikoloa, HI, 2011. IEEE. URL: <a class="reference external" href="http://ieeexplore.ieee.org/document/6107290/">http://ieeexplore.ieee.org/document/6107290/</a>, <a class="reference external" href="https://doi.org/10.23919/OCEANS.2011.6107290">doi:10.23919/OCEANS.2011.6107290</a>.</p>
+</dd>
+<dt class="label" id="id12"><span class="brackets">Bennett et al., 2019</span></dt>
+<dd><p>James Bennett, Fritz Stahr, and Charlie Eriksen. Determining Seaglider Velocities Automatically. 2019. URL: <a class="reference external" href="http://hdl.handle.net/1773/44948">http://hdl.handle.net/1773/44948</a>.</p>
+</dd>
+<dt class="label" id="id10"><span class="brackets">Johnson et al., 2007</span></dt>
+<dd><p>Gregory C. Johnson, John M. Toole, and Nordeen G. Larson. Sensor Corrections for Sea-Bird SBE-41CP and SBE-41 CTDs. <em>Journal of Atmospheric and Oceanic Technology</em>, 24(6):1117–1130, 2007. URL: <a class="reference external" href="https://journals.ametsoc.org/doi/10.1175/JTECH2016.1">https://journals.ametsoc.org/doi/10.1175/JTECH2016.1</a>, <a class="reference external" href="https://doi.org/10.1175/JTECH2016.1">doi:10.1175/JTECH2016.1</a>.</p>
+</dd>
+<dt class="label" id="id8"><span class="brackets">Woo &amp; Gourcuff, 2021</span></dt>
+<dd><p>L. Mun Woo and Claire Gourcuff. Delayed Mode QA/QC Best Practice Manual Version 3.0 Integrated Marine Observing System. <em>Australian Ocean Data Network</em>, 2021. URL: <a class="reference external" href="https://catalogue-imos.aodn.org.au:443/geonetwork/srv/api/records/b82ec5c4-3b6a-4a39-a4e7-f1adba2d5372">https://catalogue-imos.aodn.org.au:443/geonetwork/srv/api/records/b82ec5c4-3b6a-4a39-a4e7-f1adba2d5372</a>, <a class="reference external" href="https://doi.org/10.26198/5C997B5FDC9BD">doi:10.26198/5C997B5FDC9BD</a>.</p>
+</dd>
+<dt class="label" id="id3"><span class="brackets">Garau et al., 2011</span></dt>
+<dd><p>Bartolomé Garau, Simón Ruiz, Weifeng G. Zhang, Ananda Pascual, Emma Heslop, John Kerfoot, and Joaquín Tintoré. Thermal Lag Correction on Slocum CTD Glider Data. <em>Journal of Atmospheric and Oceanic Technology</em>, 28(9):1065–1071, 2011. <a class="reference external" href="https://doi.org/10.1175/JTECH-D-10-05030.1">doi:10.1175/JTECH-D-10-05030.1</a>.</p>
+</dd>
+<dt class="label" id="id2"><span class="brackets">Lueck &amp; Picklo, 1990</span></dt>
+<dd><p>Rolf G. Lueck and James J. Picklo. Thermal Inertia of Conductivity Cells: Observations with a Sea-Bird Cell. <em>Journal of Atmospheric and Oceanic Technology</em>, 7(5):756–768, 1990. <a class="reference external" href="https://doi.org/10.1175/1520-0426(1990)007&lt;0756:TIOCCO&gt;2.0.CO;2">doi:10.1175/1520-0426(1990)007&lt;0756:TIOCCO&gt;2.0.CO;2</a>.</p>
+</dd>
+<dt class="label" id="id9"><span class="brackets">Morison et al., 1994</span></dt>
+<dd><p>James Morison, Roger Andersen, Nordeen Larson, Eric D'Asaro, and Tim Boyd. The Correction for Thermal-Lag Effects in Sea-Bird CTD Data. <em>Journal of Atmospheric and Oceanic Technology</em>, 11(4):1151–1164, 1994. URL: <a class="reference external" href="http://journals.ametsoc.org/doi/10.1175/1520-0426(1994)011&lt;1151:TCFTLE&gt;2.0.CO;2">http://journals.ametsoc.org/doi/10.1175/1520-0426(1994)011&lt;1151:TCFTLE&gt;2.0.CO;2</a>, <a class="reference external" href="https://doi.org/10.1175/1520-0426(1994)011&lt;1151:TCFTLE&gt;2.0.CO;2">doi:10.1175/1520-0426(1994)011&lt;1151:TCFTLE&gt;2.0.CO;2</a>.</p>
+</dd>
+<dt class="label" id="id4"><span class="brackets">Giddy et al., 2021</span></dt>
+<dd><p>I. Giddy, S. Swart, M. du Plessis, A. F. Thompson, and S.‐A. Nicholson. Stirring of Sea‐Ice Meltwater Enhances Submesoscale Fronts in the Southern Ocean. <em>Journal of Geophysical Research: Oceans</em>, 2021. <a class="reference external" href="https://doi.org/10.1029/2020JC016814">doi:10.1029/2020JC016814</a>.</p>
+</dd>
+<dt class="label" id="id5"><span class="brackets">Gregor et al., 2019</span></dt>
+<dd><p>Luke Gregor, Thomas J. Ryan-Keogh, Sarah-Anne Nicholson, Marcel du Plessis, Isabelle Giddy, and Sebastiaan Swart. GliderTools: A Python Toolbox for Processing Underwater Glider Data. <em>Frontiers in Marine Science</em>, 6:738, 2019. <a class="reference external" href="https://doi.org/10.3389/fmars.2019.00738">doi:10.3389/fmars.2019.00738</a>.</p>
+</dd>
+<dt class="label" id="id11"><span class="brackets">Liu et al., 2015</span></dt>
+<dd><p>Yonggang Liu, Robert H. Weisberg, and Chad Lembke. Glider Salinity Correction for Unpumped CTD Sensors across a Sharp Thermocline. In <em>Coastal Ocean Observing Systems</em>, pages 305–325. Elsevier, 2015. URL: <a class="reference external" href="https://linkinghub.elsevier.com/retrieve/pii/B9780128020227000171">https://linkinghub.elsevier.com/retrieve/pii/B9780128020227000171</a>, <a class="reference external" href="https://doi.org/10.1016/B978-0-12-802022-7.00017-1">doi:10.1016/B978-0-12-802022-7.00017-1</a>.</p>
+</dd>
+<dt class="label" id="id15"><span class="brackets">Allen et al., 2020</span></dt>
+<dd><p>John T. Allen, Cristian Munoz, Jim Gardiner, Krissy A. Reeve, Eva Alou-Font, and Nikolaos Zarokanellos. Near-Automatic Routine Field Calibration/Correction of Glider Salinity Data Using Whitespace Maximization Image Analysis of Theta/S Data. <em>Frontiers in Marine Science</em>, 7:398, 2020. URL: <a class="reference external" href="https://www.frontiersin.org/article/10.3389/fmars.2020.00398/full">https://www.frontiersin.org/article/10.3389/fmars.2020.00398/full</a>, <a class="reference external" href="https://doi.org/10.3389/fmars.2020.00398">doi:10.3389/fmars.2020.00398</a>.</p>
+</dd>
+<dt class="label" id="id17"><span class="brackets">Durack &amp; Wijffels, 2010</span></dt>
+<dd><p>Paul J. Durack and Susan E. Wijffels. Fifty-Year Trends in Global Ocean Salinities and Their Relationship to Broad-Scale Warming. <em>Journal of Climate</em>, 23(16):4342–4362, 2010. URL: <a class="reference external" href="http://journals.ametsoc.org/doi/10.1175/2010JCLI3377.1">http://journals.ametsoc.org/doi/10.1175/2010JCLI3377.1</a>, <a class="reference external" href="https://doi.org/10.1175/2010JCLI3377.1">doi:10.1175/2010JCLI3377.1</a>.</p>
+</dd>
+<dt class="label" id="id13"><span class="brackets">Owens &amp; Wong, 2009</span></dt>
+<dd><p>W. Brechner Owens and Annie P.S. Wong. An improved calibration method for the drift of the conductivity sensor on autonomous CTD profiling floats by θ–S climatology. <em>Deep Sea Research Part I: Oceanographic Research Papers</em>, 56(3):450–457, 2009. URL: <a class="reference external" href="https://linkinghub.elsevier.com/retrieve/pii/S0967063708002021">https://linkinghub.elsevier.com/retrieve/pii/S0967063708002021</a>, <a class="reference external" href="https://doi.org/10.1016/j.dsr.2008.09.008">doi:10.1016/j.dsr.2008.09.008</a>.</p>
+</dd>
+<dt class="label" id="id14"><span class="brackets">Wong et al., 2003</span></dt>
+<dd><p>Annie P. S. Wong, Gregory C. Johnson, and W. Brechner Owens. Delayed-Mode Calibration of Autonomous CTD Profiling Float Salinity Data by \textit θ – \textit S Climatology*. <em>Journal of Atmospheric and Oceanic Technology</em>, 20(2):308–318, 2003. URL: <a class="reference external" href="http://journals.ametsoc.org/doi/10.1175/1520-0426(2003)020&lt;0308:DMCOAC&gt;2.0.CO;2">http://journals.ametsoc.org/doi/10.1175/1520-0426(2003)020&lt;0308:DMCOAC&gt;2.0.CO;2</a>, <a class="reference external" href="https://doi.org/10.1175/1520-0426(2003)020&lt;0308:DMCOAC&gt;2.0.CO;2">doi:10.1175/1520-0426(2003)020&lt;0308:DMCOAC&gt;2.0.CO;2</a>.</p>
+</dd>
+<dt class="label" id="id16"><span class="brackets">Bosse et al., 2015</span></dt>
+<dd><p>Anthony Bosse, Pierre Testor, Laurent Mortier, Louis Prieur, Vincent Taillandier, Fabrizio d'Ortenzio, and Laurent Coppola. Spreading of Levantine Intermediate Waters by submesoscale coherent vortices in the northwestern Mediterranean Sea as observed with gliders. <em>Journal of Geophysical Research: Oceans</em>, 120(3):1599–1622, 2015. URL: <a class="reference external" href="http://doi.wiley.com/10.1002/2014JC010263">http://doi.wiley.com/10.1002/2014JC010263</a>, <a class="reference external" href="https://doi.org/10.1002/2014JC010263">doi:10.1002/2014JC010263</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sections"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="data_sharing.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">9. </span>Data sharing</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="acknowledgement.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">11. </span>Acknowledgement</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      <div class="extra_footer">
+        <p>  By the OceanGliders community using
+  <a href="https://jupyterbook.org/intro.html"   target="_blank">Jupyter Book</a>. 
+  This work is licensed under a 
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
+</p>      
+  
+
+      </div>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
