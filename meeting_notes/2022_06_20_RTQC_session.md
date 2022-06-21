@@ -1,5 +1,6 @@
 # Real Time Quality Control User Meeting
 
+[LIVE NOTES](https://hackmd.io/Aa_HBq_4SxG_07iGg0I-QQ?view)
 
 ## Date: June 20 2022
 
