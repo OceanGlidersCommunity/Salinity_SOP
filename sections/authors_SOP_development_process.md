@@ -38,6 +38,9 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 6) New authors joined during the community review: John Allen, [Robert E. Todd](https://github.com/rtodd-WHOI) and [Callum Rollo](https://github.com/callumrollo).
 
+7) Virtual meeting to collect issues on Real Time QC T&S on June 21 2022 organized by Victor Turpin, [Isabelle Giddy](https://github.com/patricialg), Corentin Guyot and [Soeren Thomsen](https://github.com/soerenthomsen). [Agenda](create md file)
+Meeting participants: Soeren Thomsen, Isabelle Giddy, ...
+
 ## Contributions 
 
 [Isabelle Giddy](https://github.com/isgiddy) Restructured and revised the initial draft document after Soeren Thomsen and Donglai Gong. 
