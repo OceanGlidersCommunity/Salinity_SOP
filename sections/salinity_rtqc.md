@@ -20,8 +20,13 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 
 
 
-### Global range check
-- XXX
+### Global Range
+
+- GTSPP: 0 to 41
+
+### Regional Range
+
+### Global Profile Envelope
 
 ### Outlier and spike check
 - XXX
