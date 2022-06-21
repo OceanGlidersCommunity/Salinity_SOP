@@ -38,8 +38,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 6) New authors joined during the community review: John Allen, [Robert E. Todd](https://github.com/rtodd-WHOI) and [Callum Rollo](https://github.com/callumrollo).
 
-7) Virtual meeting to collect issues on Real Time QC T&S on June 21 2022 organized by Victor Turpin, [Isabelle Giddy](https://github.com/patricialg), Corentin Guyot and [Soeren Thomsen](https://github.com/soerenthomsen). [Agenda](create md file)
-Meeting participants: Soeren Thomsen, Isabelle Giddy, ...
+7) Virtual meeting to collect Real Time QC T&S issues by users on June 21 2022 organized by Victor Turpin, [Isabelle Giddy](https://github.com/patricialg), Corentin Guyot. Chaired by [Soeren Thomsen](https://github.com/soerenthomsen). [Agenda](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/2022_06_20_RTQC_session.md)
 
 ## Contributions 
 
