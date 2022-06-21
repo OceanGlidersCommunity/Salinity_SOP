@@ -9,7 +9,7 @@ Read the SOP [here](https://oceangliderscommunity.github.io/Salinity_SOP/README.
 Everyone is welcome to join the SOP at any time.
 
 ## Community review
-The community review is open from November 2021 to April 30 2022.
+The community review is open from November 2021 to June 30 2022.
 
 ### Who is invited to review?
 Constructive feedback by anyone is welcome. We encourage both experts and new gliders users who want to start observing oxygen to feedback on the document. For example: Experts are welcome to critically assess the specific methods and uncertainty ranges outlined in the SOP. New users can help to improve the SOP by providing a feedback from the user perspective. Please [let us know that you use the SOP](https://github.com/OceanGlidersCommunity/Salinity_SOP/discussions).
