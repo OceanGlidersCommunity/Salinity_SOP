@@ -34,6 +34,14 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 
 ### Global Profile Envelope
 
+- GTSPP:
+  - 0 to 50: 0 to 41
+  - 50 to 100: 1 to 41
+  - 100 to 400: 3 to 41
+  - 400 to 1100: 10 to 41
+  - 1100 to 3000: 22 to 38
+  - 3000 to 12000: 33 to 37
+
 ### Outlier and spike check
 - XXX
 
