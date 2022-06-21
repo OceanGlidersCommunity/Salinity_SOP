@@ -6,7 +6,19 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 - XXX 
 
 ## Real Time Quality Control (RTQC)
-- XXX
+
+
+[Realtime-QC](https://github.com/OceanGlidersCommunity/Realtime-QC)
+
+{cite}`IOC26`
+
+{cite}`GTSPP:2010`
+{cite}`EGOOS:2010`
+{cite}`Argo:2020`
+{cite}`QARTOD:2016`
+
+
+
 
 ### Global range check
 - XXX
