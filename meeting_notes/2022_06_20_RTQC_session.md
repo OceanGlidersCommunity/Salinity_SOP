@@ -8,7 +8,7 @@ Notes: Callum Rollo
 # Participants
 Callum Rollo, Victor Turpin, Isabelle Giddy, Corentin Guyot (Ifremer), Soeren Thomsen, Justin Buck (NOC), Pierre Testor (LOCEAN/CNRS, France), Joan Mateu Horrach Pou (UiB), Gui Castelao (SCOOT Science), Joe McGovern (Marine Institute, Ireland), Garry Glass, Antonio Bussani (OGS), Yves Poncon (LOCEAN), Emma Slater (NOC), Dave Hebert (BIO/DFO Canada)
 Thania Papapostolou (HCMR Greece)
-Angel Ruiz-Angulo (University of Iceland), Anh Tran(MEDS, DFO Canada), Ali Aydogdu (CMCC), Nikolaos Zarokanellos (SOCIB)
+Angel Ruiz-Angulo (University of Iceland), Anh Tran(MEDS, DFO Canada), Ali Aydogdu (CMCC), Nikolaos Zarokanellos (SOCIB), Kimmo Tikka (FMI)
 
 
 # Agenda
