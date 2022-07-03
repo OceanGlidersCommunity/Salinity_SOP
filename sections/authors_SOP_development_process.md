@@ -21,6 +21,7 @@
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*, [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
   1. [Robert E. Todd](https://github.com/rtodd-WHOI), *Woods Hole Oceanographic Institution, Woods Hole, MA, USA*, [0000-0002-6854-7729](https://orcid.org/0000-0002-6854-7729)
   2. [Callum Rollo](https://github.com/callumrollo), *Voice of the Ocean Foundation, Göteborg, Sweden,* [0000-0002-5134-7886](https://orcid.org/0000-0002-5134-7886)
+  3. [Guilherme Castelao](https://github.com/castelao), *Scripps Institution of Oceanography - UC San Diego, La Jolla, CA* [-add ORCID link]
 
 
 ## SOP development process
@@ -38,7 +39,7 @@ Meeting participants: [Soeren Thomsen](https://github.com/soerenthomsen), [Isabe
 
 6) New authors joined during the community review: John Allen, [Robert E. Todd](https://github.com/rtodd-WHOI) and [Callum Rollo](https://github.com/callumrollo).
 
-7) Virtual meeting to collect Real Time QC T&S issues by users on June 21 2022 organized by Victor Turpin, [Isabelle Giddy](https://github.com/patricialg), Corentin Guyot. Chaired by [Soeren Thomsen](https://github.com/soerenthomsen). [Agenda](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/2022_06_20_RTQC_session.md)
+7) Virtual meeting to collect Real Time QC T&S issues by users on June 21 2022 organized by Victor Turpin, [Isabelle Giddy](https://github.com/patricialg), Corentin Guyot. Chaired by [Soeren Thomsen](https://github.com/soerenthomsen). [Agenda](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/2022_06_20_RTQC_session.md) New authors joined: [Guilherme Castelao](https://github.com/castelao)
 
 ## Contributions 
 
@@ -99,4 +100,6 @@ John Allen provided input related to inter-comparisons with other platforms and 
 [Robert Todd](https://github.com/rtodd-WHOI) provided input on Spray Gliders.
 
 [Callum Rollo](https://github.com/callumrollo) reviewed the whole document. Provided technical support related to the jupyter book deployment and helps to maintain the repo. 
+
+[Guilherme Castelao](https://github.com/castelao) leads the RTQC chapter.
 
