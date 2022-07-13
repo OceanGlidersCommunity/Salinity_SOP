@@ -98,8 +98,8 @@ The method has been tested and validated on Slocum gliders with pumped Seabird C
 An updated thermal lag correction algorithm was developed based on {cite}`garau_thermal_2011` and it introduces a new cost function for calculating the pairwise thermal lag correction coefficients in highly stratified oceans. 
 The algorithm also takes the vertical variability of the thermocline into account for more robust corrections in the presence of internal waves. 
 Specifically, the parameters within the cost functions are normalized and depth is zero-referenced to the thermocline depth. 
-Based on the observed temperature gradient at the thermocline, the algorithm then decides whether to use the normalized T-S or S-Z relation for the cost function. 
-The improved method was able to eliminate most of the mismatches of salinity and density profiles between adjacent down up casts, and also fixed the problem of mismatching water mass identities in the T/S space.
+Based on the observed temperature gradient at the thermocline, the algorithm then decides whether to use the normalized Temperature-Salinity or Salinity-Depth relation for the cost function. 
+The improved method was able to eliminate most of the mismatches of salinity and density profiles between adjacent down up casts, and also fixed the problem of mismatching water mass identities in the Temperature-Salinity space.
 Salinity spikes up to 0.5 and density inversions up to 0.2 kg m<sup>-3</sup> the vertical profiles were successfully corrected.
 
 (method8)=
