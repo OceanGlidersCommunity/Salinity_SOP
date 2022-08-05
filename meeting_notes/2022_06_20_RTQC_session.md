@@ -12,7 +12,7 @@ Angel Ruiz-Angulo (University of Iceland), Anh Tran(MEDS, DFO Canada), Ali Aydog
 
 
 # Agenda
-1) [Presentation](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/2022/WS3%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Temp%20and%20Sal%202.pdf) by Victor Turpin: Real Time Data Management of Temperature and Salinity
+1) [Presentation](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/WS3%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Temp%20and%20Sal%202.pdf) by Victor Turpin: Real Time Data Management of Temperature and Salinity
 2) [OceanGliders Salinity SOP](https://oceangliderscommunity.github.io/Salinity_SOP/README.html#) by Soeren Thomsen
 3) Live Notes via HackMD by Callum Rollo
 4) Collection of issues by users
@@ -31,7 +31,7 @@ How to improve the quality of the Real Time data ? Thermal lag correction ? Real
 
 ### Victor Turpin presentation
 
-[Link to presentation pdf](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/2022/WS3%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Temp%20and%20Sal%202.pdf)
+[Link to presentation pdf](https://github.com/OceanGlidersCommunity/Salinity_SOP/blob/main/meeting_notes/WS3%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Temp%20and%20Sal%202.pdf)
 
 GROOM 1 Core idea: multiple glider groups that push raw data and metdata to DACs. They use a common format (now EGO, later OG1.0). Data are pushed to data aggregators then onward into data products. Still what we use now
 
