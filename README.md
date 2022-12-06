@@ -36,3 +36,5 @@ This work is licensed under a [Creative Commons Attribution 4.0 Generic License]
 
 ## Code of Conduct
 Please read and follow our [Code of Conduct](https://github.com/OceanGlidersCommunity/OceanGliders/blob/main/CODE_OF_CONDUCT.md).
+
+add netlify
