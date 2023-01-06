@@ -6,16 +6,65 @@ This chapter has to be co-developed with the OceanGliders Data Management Task T
 - XXX 
 
 ## Real Time Quality Control (RTQC)
-- XXX
 
-### Global range check
-- XXX
+
+[Realtime-QC](https://github.com/OceanGlidersCommunity/Realtime-QC)
+
+{cite}`IOC26`
+
+{cite}`GTSPP:2010`
+{cite}`EGOOS:2010`
+{cite}`Argo:2020`
+{cite}`QARTOD:2016`
+
+
+
+
+### Global Range
+
+- GTSPP: 0 to 41
+
+### Regional Range
+
+- GTSPP:
+  - Mediterranean Sea: Accepted range 0 to 40.0 PSU. Defined by the polygon
+    30N 6W; 30N 40E; 40N 35E; 42N 20E; 50N 15E; 40N 5E; 30N 6W;
+  - Red Sea: Accepted range 0 to 40 PSU/ Defined by the polygon 10N 40E;
+    20N 50E; 30N 30E; 10N 40E;
+
+### Global Profile Envelope
+
+- GTSPP:
+  - 0 to 50: 0 to 41
+  - 50 to 100: 1 to 41
+  - 100 to 400: 3 to 41
+  - 400 to 1100: 10 to 41
+  - 1100 to 3000: 22 to 38
+  - 3000 to 12000: 33 to 37
 
 ### Outlier and spike check
-- XXX
+
+- GTSPP: 0.3 PSU
 
 ### Stuck value test
-- XXX
+
+- GTSPP:
+
+### Gradient
+
+- GTSPP: 5 PSU
+- Argo: Dropped this test on 20??
+
+### Rate of Change
+
+- GTSPP: A modification of this test applied on the start and end of a profile and named "Top and Bottom Spike"
+
+### Density Inversion
+
+Require that pressure, temperature, and salinity to have passed individually
+on its QC checks. This test reduce further the space of expected salinity.
+
+- GTSPP: Threshold 0 kg/m3 (This is probably too agressive)
 
 (pump-malfunction)=
 ### Pump malfunction
